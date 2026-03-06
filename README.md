@@ -8,7 +8,7 @@
 
 **A meticulously curated list of frameworks, tools, platforms, and resources for building autonomous AI agents in 2026.**
 
-*If this list saved you research time, please ⭐ star it — it helps others find it too.*
+If this list saved you research time, please ⭐ star it — it helps others find it too.
 
 </div>
 
@@ -49,18 +49,18 @@ Updated monthly. PRs welcome.
 
 ## Not Sure Where to Start
 
-| I want to                                       | Use this                                                              |
-| ----------------------------------------------- | --------------------------------------------------------------------- |
-| Build a production agent pipeline in Python     | [LangGraph](#langgraph) or [CrewAI](#crewai)                         |
-| Build a production agent pipeline in TypeScript | [Mastra](#mastra) or [VoltAgent](#voltagent)                         |
-| Write and debug code autonomously               | [Claude Code](#claude-code) or [OpenHands](#openhands-opendevin)     |
+| I want to                                       | Use this                                                                      |
+| ----------------------------------------------- | ----------------------------------------------------------------------------- |
+| Build a production agent pipeline in Python     | [LangGraph](#langgraph) or [CrewAI](#crewai)                                 |
+| Build a production agent pipeline in TypeScript | [Mastra](#mastra) or [VoltAgent](#voltagent)                                 |
+| Write and debug code autonomously               | [Claude Code](#claude-code) or [OpenHands](#openhands-opendevin)             |
 | Orchestrate large teams of agents               | [AutoGen](#autogen-microsoft-agent-framework) or [Swarms](#swarms-framework) |
-| Build without writing code                      | [Dify](#dify) or [Langflow](#langflow)                               |
-| Add memory to an existing agent                 | [Mem0](#mem0)                                                        |
-| Run code safely in a sandbox                    | [E2B](#e2b)                                                          |
-| Add safety guardrails to any agent              | [AgentGuard](#agentguard)                                            |
-| Build a voice agent                             | [Pipecat](#pipecat)                                                  |
-| Learn the fundamentals first                    | [Building Effective Agents](#building-effective-agents--anthropic)   |
+| Build without writing code                      | [Dify](#dify) or [Langflow](#langflow)                                       |
+| Add memory to an existing agent                 | [Mem0](#mem0)                                                                |
+| Run code safely in a sandbox                    | [E2B](#e2b)                                                                  |
+| Add safety guardrails to any agent              | [AgentGuard](#agentguard)                                                    |
+| Build a voice agent                             | [Pipecat](#pipecat)                                                          |
+| Learn the fundamentals first                    | [Building Effective Agents](#building-effective-agents--anthropic)           |
 
 ---
 
@@ -390,7 +390,7 @@ Lilian Weng's comprehensive breakdown of the components of LLM-powered agents: p
 
 | Date       | Change                                              |
 | ---------- | --------------------------------------------------- |
-| March 2026 | Initial release — 80+ tools across 9 categories    |
+| March 2026 | Initial release — 80+ tools across 9 categories     |
 
 > Want to be notified of updates? **Watch** this repo → Custom → Releases.
 
