@@ -43,16 +43,16 @@ $7.8B market size (2025) · 46% CAGR through 2030 · 40% of enterprise apps expe
 
 Here are quick recommendations depending on what you want to do:
 
-- Build a production agent pipeline in Python — [LangGraph](https://github.com/langchain-ai/langgraph) or [CrewAI](https://github.com/joaomdmoura/crewAI)
-- Build a production agent pipeline in TypeScript — [Mastra](https://github.com/mastra-ai/mastra) or [VoltAgent](#voltagent)
-- Write and debug code autonomously — [Claude Code](https://github.com/anthropics/claude-code) or [OpenHands OpenDevin](https://github.com/OpenDevin/OpenDevin)
-- Orchestrate large teams of agents — [AutoGen](https://github.com/microsoft/autogen) or [Swarms Framework](https://github.com/kyegomez/swarms)
-- Build without writing code — [Dify](https://github.com/langgenius/dify) or [Langflow](https://github.com/langflow-ai/langflow)
-- Add memory to an existing agent — [Mem0](https://github.com/mem0ai/mem0)
-- Run code safely in a sandbox — [E2B](https://github.com/e2b-dev/e2b)
-- Add safety guardrails to any agent — [AgentGuard](https://github.com/agentguard/example) 
-- Build a voice agent — [Pipecat](https://github.com/pipecat-ai/pipecat)
-- Learn the fundamentals first — [Building Effective Agents — Anthropic](https://www.anthropic.com/research/building-effective-agents)
+- Build a production agent pipeline in Python — LangGraph or CrewAI
+- Build a production agent pipeline in TypeScript — Mastra or VoltAgent
+- Write and debug code autonomously — Claude Code or OpenHands OpenDevin
+- Orchestrate large teams of agents — AutoGen or Swarms Framework
+- Build without writing code — Dify or Langflow
+- Add memory to an existing agent — Mem0
+- Run code safely in a sandbox — E2B
+- Add safety guardrails to any agent — AgentGuard
+- Build a voice agent — Pipecat
+- Learn the fundamentals first — Building Effective Agents (Anthropic)
 
 ---
 
