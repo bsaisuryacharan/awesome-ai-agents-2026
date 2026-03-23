@@ -15,6 +15,7 @@ If this list saved you research time, please star it — it helps others find it
 - [Low and No-Code Builders](#low-and-no-code-builders)
 - [Voice and Multimodal Agents](#voice-and-multimodal-agents)
 - [Safety Guardrails and Observability](#safety-guardrails-and-observability)
+- [Agent Deployment and Hosting](#agent-deployment-and-hosting)
 - [Learning Resources](#learning-resources)
 - [Changelog](#changelog)
 
@@ -42,6 +43,7 @@ Updated monthly. PRs welcome.
 - [Modus](https://github.com/hypermodeinc/modus) - Serverless framework for high-throughput agent workloads.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Lightweight multi-agent SDK with tracing and guardrails.
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) - Production multi-agent framework with self-reflection and MCP integration.
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft enterprise SDK for Python, C#, and Java with modular plugins, memory, and goal planning.
 - [Strands Agents SDK](https://github.com/strands-agents/sdk-python) - AWS model-driven agent SDK with Bedrock integration.
 - [VoltAgent](https://github.com/voltagent/voltagent) - TypeScript agent framework with built-in observability and a self-improving context engine.
 
@@ -95,6 +97,14 @@ Updated monthly. PRs welcome.
 - [APort Agent Guardrails](https://github.com/aporthq/aport-agent-guardrails) - Pre-action authorization plugin for agent frameworks.
 - [Orchard Kit](https://github.com/OrchardHarmonics/orchard-kit) - Modules for agent runtime security, self-audit, and collective cognition.
 
+## Agent Deployment and Hosting
+ 
+- [AWS Bedrock AgentCore](https://github.com/awslabs/amazon-bedrock-agentcore-samples/) - Managed AWS infrastructure for Bedrock-based agents with compliance, scaling, and monitoring built in.
+- [Modal](https://github.com/modal-labs/modal-client) - Serverless GPU compute purpose-built for AI workloads with fast cold starts and Python-native deployment.
+- [Northflank](https://northflank.com/) - Full-stack platform with GPU orchestration, Git-based CI/CD, and bring-your-own-cloud support for agent workloads.
+- [Railway](https://railway.com/) - One-click deploy from GitHub with persistent volumes and databases for stateful agent deployments.
+- [Trigger.dev](https://github.com/triggerdotdev/trigger.dev) - Background job platform with cron, webhook, and event triggers purpose-built for long-running agent tasks.
+
 ## Learning Resources
 
 - [AI Agents in LangGraph — DeepLearning.ai](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) - Short course on building production agents with LangGraph.
@@ -107,3 +117,4 @@ Updated monthly. PRs welcome.
 ## Changelog
 
 - March 2026 - Initial release with 80+ tools across 9 categories.
+- March 2026 - Added Semantic Kernel to Orchestration Frameworks. Added Agent Deployment and Hosting category with 5 tools.
