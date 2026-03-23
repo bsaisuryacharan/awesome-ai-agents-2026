@@ -6,7 +6,6 @@ If this list saved you research time, please star it — it helps others find it
 
 ## Contents
 
-- [Why This List](#why-this-list)
 - [Orchestration Frameworks](#orchestration-frameworks)
 - [Coding Agents](#coding-agents)
 - [Memory and Context](#memory-and-context)
@@ -21,17 +20,9 @@ If this list saved you research time, please star it — it helps others find it
 
 ---
 
-## Why This List
+![](Ai-agents-banner.png)
 
-The AI agent ecosystem grew faster in 2025 than most engineers could keep up with. New frameworks launched monthly, companies merged products, and the line between "agent framework" and "workflow automation" blurred.
-
-This list cuts through the noise. Every tool here has been evaluated against three questions:
-
-- Is it actually used in production? (not just a demo repo)
-- Is it actively maintained? (commit in the last 6 months)
-- Does it solve a real, specific problem? (not just another LangChain wrapper)
-
-Updated monthly. PRs welcome.
+---
 
 ## Orchestration Frameworks
 
