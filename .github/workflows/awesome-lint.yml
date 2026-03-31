@@ -21,6 +21,12 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Install codespell
+        run: python -m pip install codespell
+
+      - name: Check English in docs and comments
+        run: codespell -q 3 --skip=.git,node_modules --check-filenames --ignore-words-list="reworkd" .
+
       - name: Install dependencies
         run: npm install
 
