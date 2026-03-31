@@ -30,11 +30,14 @@ If this list saved you research time, please star it — it helps others find it
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Role-playing agent orchestration for collaborative agent teams.
 - [Google ADK](https://github.com/google/adk-python) - Modular agent dev kit integrating Gemini/Vertex AI.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Enterprise framework for stateful, graph-based agent workflows.
+- [Letta](https://github.com/letta-ai/letta) - Formerly MemGPT, stateful agents with built-in long-term memory and a REST API server.
 - [Mastra](https://github.com/mastra-ai/mastra) - Opinionated TypeScript framework with RAG and observability.
 - [Modus](https://github.com/hypermodeinc/modus) - Serverless framework for high-throughput agent workloads.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Lightweight multi-agent SDK with tracing and guardrails.
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) - Production multi-agent framework with self-reflection and MCP integration.
+- [PydanticAI](https://github.com/pydantic/pydantic-ai) - Type-safe agent framework from the Pydantic team with a FastAPI-style developer experience.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft enterprise SDK for Python, C#, and Java with modular plugins, memory, and goal planning.
+- [Smolagents](https://github.com/huggingface/smolagents) - HuggingFace code-first framework where agents write and execute Python instead of JSON tool calls.
 - [Strands Agents SDK](https://github.com/strands-agents/sdk-python) - AWS model-driven agent SDK with Bedrock integration.
 - [VoltAgent](https://github.com/voltagent/voltagent) - TypeScript agent framework with built-in observability and a self-improving context engine.
 
