@@ -1,11 +1,4 @@
-
 ![](img/ARUNAGIRINATHAN-K.png)
-
-<!-- # Awesome AI Agents 2026 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
-A meticulously curated list of frameworks, tools, platforms, and resources for building autonomous AI agents in 2026.
-
-If this list saved you research time, please star it — it helps others find it too. -->
 
 ## Contents
 
@@ -20,10 +13,6 @@ If this list saved you research time, please star it — it helps others find it
 - [Agent Deployment and Hosting](#agent-deployment-and-hosting)
 - [Learning Resources](#learning-resources)
 - [Changelog](#changelog)
-
----
-
-![](img/ARUNAGIRINATHAN K.png)
 
 ---
 
@@ -130,4 +119,4 @@ If this list saved you research time, please star it — it helps others find it
 - March 2026 - Initial release with 80+ tools across 9 categories.
 - March 2026 - Added Semantic Kernel to Orchestration Frameworks. Added Agent Deployment and Hosting category with 5 tools.
 - March 2026 - Added Smolagents, PydanticAI, and Letta to Orchestration Frameworks
-- March 2026 - Added new frameworks and resources for orchestration
+- April 2026 - Added new frameworks and resources for orchestration
