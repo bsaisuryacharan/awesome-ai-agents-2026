@@ -58,9 +58,17 @@
 
 ## Memory and Context
 
+- [cognee](https://github.com/topoteretes/cognee) - Knowledge Engine for AI Agent Memory in 6 lines of code
 - [Cortex Memory](https://github.com/prem-research/cortex) - Solution for agent memory covering extraction, vector search, and optimization.
+- [graphiti](https://github.com/getzep/graphiti) - Build Real-Time Knowledge Graphs for AI Agents
+- [Langmem](https://github.com/langchain-ai/langmem) - LangMem helps agents learn and adapt from their interactions over time.
+- [letta](https://github.com/letta-ai/letta) - Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.
 - [LlamaIndex](https://github.com/jerryjliu/llama_index) - Data framework for LLM applications with powerful indexing, retrieval, and RAG capabilities.
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications with long-term, short-term, and semantic memory extraction.
+- [memos](https://github.com/usememos/memos) - Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.
+- [Memvid](https://github.com/memvid/memvid) - Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.
+- [SimpleMem](https://github.com/aiming-lab/SimpleMem) - Efficient Lifelong Memory for LLM Agents Text & Multimodal
+- [Supermemory](https://github.com/supermemoryai/supermemory) - Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.
 
 ## Multi-Agent Systems
 
@@ -120,3 +128,4 @@
 - March 2026 - Added Semantic Kernel to Orchestration Frameworks. Added Agent Deployment and Hosting category with 5 tools.
 - March 2026 - Added Smolagents, PydanticAI, and Letta to Orchestration Frameworks
 - April 2026 - Added new frameworks and resources for orchestration
+- April 2026 - Add new memory-related resources
