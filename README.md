@@ -1,4 +1,5 @@
-![](img/ARUNAGIRINATHAN K.png)
+
+![](img/ARUNAGIRINATHAN-K.png)
 
 <!-- # Awesome AI Agents 2026 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
