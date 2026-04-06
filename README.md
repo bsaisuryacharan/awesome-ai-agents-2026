@@ -1,8 +1,10 @@
-# Awesome AI Agents 2026 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+![](img/ARUNAGIRINATHAN K.png)
+
+<!-- # Awesome AI Agents 2026 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A meticulously curated list of frameworks, tools, platforms, and resources for building autonomous AI agents in 2026.
 
-If this list saved you research time, please star it — it helps others find it too.
+If this list saved you research time, please star it — it helps others find it too. -->
 
 ## Contents
 
@@ -20,26 +22,33 @@ If this list saved you research time, please star it — it helps others find it
 
 ---
 
-![](Ai-agents-banner.png)
+![](img/ARUNAGIRINATHAN K.png)
 
 ---
 
 ## Orchestration Frameworks
 
+- [Agno](https://github.com/agno-agi/agno) - Multi-agent framework with a runtime and control plane for managing agent deployments at scale.
 - [AutoGen](https://github.com/microsoft/autogen) - Event-driven multi-agent framework merged with Semantic Kernel for production workflows.
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Role-playing agent orchestration for collaborative agent teams.
 - [Google ADK](https://github.com/google/adk-python) - Modular agent dev kit integrating Gemini/Vertex AI.
+- [Haystack](https://github.com/deepset-ai/haystack) - Production-ready AI orchestration framework focused on building customizable LLM applications and RAG pipelines.
+- [LlamaIndex](https://github.com/run-llama/llama_index) - The leading framework for connecting LLMs to your data, with powerful indexing and retrieval capabilities.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Enterprise framework for stateful, graph-based agent workflows.
 - [Letta](https://github.com/letta-ai/letta) - Formerly MemGPT, stateful agents with built-in long-term memory and a REST API server.
 - [Mastra](https://github.com/mastra-ai/mastra) - Opinionated TypeScript framework with RAG and observability.
+- [MetaGPT](https://github.com/FoundationAgents/MetaGPT) - Multi-agent framework simulating a software company with specialized roles.
 - [Modus](https://github.com/hypermodeinc/modus) - Serverless framework for high-throughput agent workloads.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Lightweight multi-agent SDK with tracing and guardrails.
+- [Open-AutoGLM](https://github.com/zai-org/Open-AutoGLM) - An open-source phone agent model and framework for building mobile device automation agents.
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) - Production multi-agent framework with self-reflection and MCP integration.
 - [PydanticAI](https://github.com/pydantic/pydantic-ai) - Type-safe agent framework from the Pydantic team with a FastAPI-style developer experience.
-- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft enterprise SDK for Python, C#, and Java with modular plugins, memory, and goal planning.
+- [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft enterprise SDK for Python, C#, and Java modular plugins, memory, and goal planning.
 - [Smolagents](https://github.com/huggingface/smolagents) - Hugging Face code-first framework where agents write and execute Python instead of JSON tool calls.
 - [Strands Agents SDK](https://github.com/strands-agents/sdk-python) - AWS model-driven agent SDK with Bedrock integration.
+- [Vercel AI SDK](https://github.com/vercel/ai) -  streaming-first primitives for AI UIs with React Server Components and edge runtime support.
 - [VoltAgent](https://github.com/voltagent/voltagent) - TypeScript agent framework with built-in observability and a self-improving context engine.
+
 
 ## Coding Agents
 
@@ -49,6 +58,10 @@ If this list saved you research time, please star it — it helps others find it
 - [MetaGPT](https://github.com/geekan/MetaGPT) - Simulates a full software company workflow from requirements to PRs using role-playing agents.
 - [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Execute code locally via natural-language model instructions.
 - [OpenDevin](https://github.com/OpenDevin/OpenDevin) - Autonomous software engineer for multi-step coding tasks and terminal automation.
+
+![alt text](image.png)
+
+---
 
 ## Memory and Context
 
@@ -113,3 +126,4 @@ If this list saved you research time, please star it — it helps others find it
 - March 2026 - Initial release with 80+ tools across 9 categories.
 - March 2026 - Added Semantic Kernel to Orchestration Frameworks. Added Agent Deployment and Hosting category with 5 tools.
 - March 2026 - Added Smolagents, PydanticAI, and Letta to Orchestration Frameworks
+- March 2026 - Added new frameworks and resources for orchestration
