@@ -54,6 +54,10 @@ If this list saved you research time, please star it — it helps others find it
 - [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Execute code locally via natural-language model instructions.
 - [OpenDevin](https://github.com/OpenDevin/OpenDevin) - Autonomous software engineer for multi-step coding tasks and terminal automation.
 
+<img width="1440" height="1360" alt="image" src="https://github.com/user-attachments/assets/d50aad57-f061-4c98-b4ea-48ee4f0e7116" />
+
+---
+
 ## Memory and Context
 
 - [Cortex Memory](https://github.com/prem-research/cortex) - Solution for agent memory covering extraction, vector search, and optimization.
