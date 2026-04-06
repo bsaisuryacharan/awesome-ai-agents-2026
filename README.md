@@ -49,6 +49,9 @@ If this list saved you research time, please star it — it helps others find it
 - [Vercel AI SDK](https://github.com/vercel/ai) -  streaming-first primitives for AI UIs with React Server Components and edge runtime support.
 - [VoltAgent](https://github.com/voltagent/voltagent) - TypeScript agent framework with built-in observability and a self-improving context engine.
 
+<img width="1440" height="1232" alt="image" src="https://github.com/user-attachments/assets/b433db9c-bf6f-4baf-98dc-1f99f68f1059" />
+
+---
 
 ## Coding Agents
 
@@ -59,7 +62,7 @@ If this list saved you research time, please star it — it helps others find it
 - [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Execute code locally via natural-language model instructions.
 - [OpenDevin](https://github.com/OpenDevin/OpenDevin) - Autonomous software engineer for multi-step coding tasks and terminal automation.
 
-![alt text](image.png)
+<img width="1440" height="1360" alt="image" src="https://github.com/user-attachments/assets/d50aad57-f061-4c98-b4ea-48ee4f0e7116" />
 
 ---
 
