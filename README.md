@@ -41,6 +41,10 @@ If this list saved you research time, please star it — it helps others find it
 - [Strands Agents SDK](https://github.com/strands-agents/sdk-python) - AWS model-driven agent SDK with Bedrock integration.
 - [VoltAgent](https://github.com/voltagent/voltagent) - TypeScript agent framework with built-in observability and a self-improving context engine.
 
+<img width="1440" height="1232" alt="image" src="https://github.com/user-attachments/assets/b433db9c-bf6f-4baf-98dc-1f99f68f1059" />
+
+---
+
 ## Coding Agents
 
 - [Aider](https://github.com/Aider-AI/aider) - Terminal-first pair programmer that edits code in local repos and preserves Git history.
