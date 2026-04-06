@@ -46,20 +46,20 @@
 ## Coding Agents
 
 - [Aider](https://github.com/Aider-AI/aider) - Terminal-first pair programmer that edits code in local repos and preserves Git history.
+- [Aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Mature autonomous agent platform with Forge and public benchmarks.
-- [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal.
 - [Claude Code](https://github.com/anthropics/claude-code) - Terminal-first agentic coding tool with multi-file edits, test running, and Git operations.
+- [Cline](https://github.com/cline/cline) - Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.
+- [Codex-CLI](https://github.com/microsoft/Codex-CLI) - CLI tool that uses Codex to turn natural language commands into their Bash/ZShell/PowerShell equivalents
+- [Continue](https://github.com/continuedev/continue) - Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI
+- [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal.
+- [Goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
 - [MetaGPT](https://github.com/geekan/MetaGPT) - Simulates a full software company workflow from requirements to PRs using role-playing agents.
 - [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Execute code locally via natural-language model instructions.
 - [OpenDevin](https://github.com/OpenDevin/OpenDevin) - Autonomous software engineer for multi-step coding tasks and terminal automation.
 - [opencode](https://github.com/anomalyco/opencode) - The open source coding agent available as a desktop application
-- [Codex-CLI](https://github.com/microsoft/Codex-CLI) - CLI tool that uses Codex to turn natural language commands into their Bash/ZShell/PowerShell equivalents
-- [Cline](https://github.com/cline/cline) - Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.
-- [Aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
-- [Continue](https://github.com/continuedev/continue) - Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI
-- [Goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
-- [SWE-agent](https://github.com/SWE-agent/SWE-agent) - SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges.
 - [OpenHands](https://github.com/OpenHands/OpenHands) - OpenHands: AI-Driven Development
+- [SWE-agent](https://github.com/SWE-agent/SWE-agent) - SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges.
 
 <img width="1440" height="1360" alt="image" src="https://github.com/user-attachments/assets/d50aad57-f061-4c98-b4ea-48ee4f0e7116" />
 
