@@ -71,11 +71,11 @@
 ## Agent Tooling and Infrastructure
 
 - [AgentDock](https://github.com/agentdock/agentdock) - Framework for building and deploying production-ready AI agents.
+- [Engram](https://github.com/kwstx/engram_translator) - Universal bridge for multi-protocol AI agent systems with automated semantic mapping.
 - [E2B](https://github.com/e2b-dev/e2b) - Cloud sandboxes for AI agents to run code securely.
 - [Firecrawl](https://github.com/mendableai/firecrawl) - Web scraping API built for LLMs that converts websites to clean markdown.
 - [Notte](https://github.com/nottelabs/notte) - Browser automation for production pipelines.
 - [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol) - Networking stack for distributed agent systems with encrypted tunnels.
-- [Engram](https://github.com/kwstx/engram_translator) - Universal bridge for multi-protocol AI agent systems with automated semantic mapping.
 
 ## Low and No-Code Builders
 
