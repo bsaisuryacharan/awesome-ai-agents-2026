@@ -14,8 +14,6 @@
 - [Learning Resources](#learning-resources)
 - [Changelog](#changelog)
 
----
-
 ## Orchestration Frameworks
 
 - [Agno](https://github.com/agno-agi/agno) - Multi-agent framework with a runtime and control plane for managing agent deployments at scale.
@@ -92,6 +90,7 @@
 ## Agent Tooling and Infrastructure
 
 - [AgentDock](https://github.com/agentdock/agentdock) - Framework for building and deploying production-ready AI agents.
+- [Engram](https://github.com/kwstx/engram_translator) - Universal bridge for multi-protocol AI agent systems with automated semantic mapping.
 - [E2B](https://github.com/e2b-dev/e2b) - Cloud sandboxes for AI agents to run code securely.
 - [Firecrawl](https://github.com/mendableai/firecrawl) - Web scraping API built for LLMs that converts websites to clean markdown.
 - [Notte](https://github.com/nottelabs/notte) - Browser automation for production pipelines.
@@ -133,10 +132,15 @@
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - Community-maintained guide covering prompt engineering and agent strategies.
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - The foundational paper behind the ReAct prompting pattern.
 
-## Changelog
 
+<<<<<<< HEAD
 - March 2026 - Initial release with 80+ tools across 9 categories.
 - March 2026 - Added Semantic Kernel to Orchestration Frameworks. Added Agent Deployment and Hosting category with 5 tools.
 - March 2026 - Added Smolagents, PydanticAI, and Letta to Orchestration Frameworks
 - April 2026 - Added new frameworks and resources for orchestration
 - April 2026 - Add new memory-related resources and Coding Agent
+=======
+## Modern AI system
+
+<img width="1440" height="1822" alt="image" src="https://github.com/user-attachments/assets/83bd2dab-c4b8-4e86-9839-aaa483e11d6e" />
+>>>>>>> 06c3a0c73fabb4f9723257262465685f09605436

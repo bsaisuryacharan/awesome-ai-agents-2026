@@ -14,7 +14,10 @@ All notable changes to this list will be documented here.
 | March 2026 | Added Semantic Kernel to Orchestration Frameworks. Added Agent Deployment and Hosting category with 5 tools. |
 | March 2026 | Added Smolagents, PydanticAI, and Letta to Orchestration Frameworks |
 | April 2026 | Added new frameworks and resources for orchestration |
+<<<<<<< HEAD
 | April 2026 | Add new memory-related resources and Coding Agent |
+=======
+>>>>>>> 06c3a0c73fabb4f9723257262465685f09605436
 
 ---
 
