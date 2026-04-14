@@ -37,9 +37,7 @@
 - [Vercel AI SDK](https://github.com/vercel/ai) -  streaming-first primitives for AI UIs with React Server Components and edge runtime support.
 - [VoltAgent](https://github.com/voltagent/voltagent) - TypeScript agent framework with built-in observability and a self-improving context engine.
 
-<img width="1440" height="1232" alt="image" src="https://github.com/user-attachments/assets/b433db9c-bf6f-4baf-98dc-1f99f68f1059" />
-
----
+![](img/orchestration.PNG)
 
 ## Coding Agents
 
@@ -59,9 +57,7 @@
 - [OpenHands](https://github.com/OpenHands/OpenHands) - OpenHands: AI-Driven Development
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) - SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges.
 
-<img width="1440" height="1360" alt="image" src="https://github.com/user-attachments/assets/d50aad57-f061-4c98-b4ea-48ee4f0e7116" />
-
----
+![](img/agent-plan.PNG)
 
 ## Memory and Context
 
@@ -87,6 +83,8 @@
 - [Swarm](https://github.com/openai/swarm) - Lightweight framework for agent handoffs, context variables, and function calling patterns.
 - [Swarms Framework](https://github.com/kyegomez/swarms) - Multi-agent orchestration for production use cases with scalability and reliability.
 
+![](img/Multi-Agent.png)
+
 ## Agent Tooling and Infrastructure
 
 - [AgentDock](https://github.com/agentdock/agentdock) - Framework for building and deploying production-ready AI agents.
@@ -96,12 +94,16 @@
 - [Notte](https://github.com/nottelabs/notte) - Browser automation for production pipelines.
 - [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol) - Networking stack for distributed agent systems with encrypted tunnels.
 
+![](img/Agent-Tooling.png)
+
 ## Low and No-Code Builders
 
 - [AgentGPT](https://github.com/reworkd/AgentGPT) - Deploy AI agents in the browser with zero local setup.
 - [Dify](https://github.com/langgenius/dify) - Open-source LLM app development platform.
 - [Langflow](https://github.com/langflow-ai/langflow) - Visual drag-and-drop builder for LLM workflows and RAG agents.
 - [Wordware](https://wordware.ai) - Web-hosted IDE where domain experts collaborate with AI engineers.
+
+![](img/Low-and-No-Code-Builders.PNG)
 
 ## Voice and Multimodal Agents
 
