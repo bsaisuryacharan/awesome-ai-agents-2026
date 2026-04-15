@@ -50,7 +50,7 @@
 - [Codex-CLI](https://github.com/microsoft/Codex-CLI) - CLI tool that uses Codex to turn natural language commands into their Bash/ZShell/PowerShell equivalents.
 - [Continue](https://github.com/continuedev/continue) - Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI.
 - [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal.
-- [Goose](https://github.com/block/goose) - An open source, extensible AI agent that goes beyond code suggestions — install, execute, edit, and test with any LLM.
+- [Goose](https://github.com/block/goose) - An open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM.
 - [MetaGPT](https://github.com/geekan/MetaGPT) - Simulates a full software company workflow from requirements to PRs using role-playing agents.
 - [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Execute code locally via natural-language model instructions.
 - [OpenDevin](https://github.com/OpenDevin/OpenDevin) - Autonomous software engineer for multi-step coding tasks and terminal automation.
