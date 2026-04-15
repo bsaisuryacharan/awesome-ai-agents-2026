@@ -1,3 +1,5 @@
+# Awesome AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+
 ![](img/ARUNAGIRINATHAN-K.png)
 
 ## Contents
@@ -12,7 +14,7 @@
 - [Safety Guardrails and Observability](#safety-guardrails-and-observability)
 - [Agent Deployment and Hosting](#agent-deployment-and-hosting)
 - [Learning Resources](#learning-resources)
-- [Changelog](#changelog)
+- [Modern AI system](#modern-ai-system)
 
 ## Orchestration Frameworks
 
@@ -34,7 +36,7 @@
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - Microsoft enterprise SDK for Python, C#, and Java modular plugins, memory, and goal planning.
 - [Smolagents](https://github.com/huggingface/smolagents) - Hugging Face code-first framework where agents write and execute Python instead of JSON tool calls.
 - [Strands Agents SDK](https://github.com/strands-agents/sdk-python) - AWS model-driven agent SDK with Bedrock integration.
-- [Vercel AI SDK](https://github.com/vercel/ai) -  streaming-first primitives for AI UIs with React Server Components and edge runtime support.
+- [Vercel AI SDK](https://github.com/vercel/ai) - Streaming-first primitives for AI UIs with React Server Components and edge runtime support.
 - [VoltAgent](https://github.com/voltagent/voltagent) - TypeScript agent framework with built-in observability and a self-improving context engine.
 
 ![](img/orchestration.PNG)
@@ -42,35 +44,33 @@
 ## Coding Agents
 
 - [Aider](https://github.com/Aider-AI/aider) - Terminal-first pair programmer that edits code in local repos and preserves Git history.
-- [Aider](https://github.com/Aider-AI/aider) - aider is AI pair programming in your terminal
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Mature autonomous agent platform with Forge and public benchmarks.
 - [Claude Code](https://github.com/anthropics/claude-code) - Terminal-first agentic coding tool with multi-file edits, test running, and Git operations.
 - [Cline](https://github.com/cline/cline) - Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.
-- [Codex-CLI](https://github.com/microsoft/Codex-CLI) - CLI tool that uses Codex to turn natural language commands into their Bash/ZShell/PowerShell equivalents
-- [Continue](https://github.com/continuedev/continue) - Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI
+- [Codex-CLI](https://github.com/microsoft/Codex-CLI) - CLI tool that uses Codex to turn natural language commands into their Bash/ZShell/PowerShell equivalents.
+- [Continue](https://github.com/continuedev/continue) - Source-controlled AI checks, enforceable in CI. Powered by the open-source Continue CLI.
 - [gemini-cli](https://github.com/google-gemini/gemini-cli) - An open-source AI agent that brings the power of Gemini directly into your terminal.
-- [Goose](https://github.com/block/goose) - an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
+- [Goose](https://github.com/block/goose) - An open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM.
 - [MetaGPT](https://github.com/geekan/MetaGPT) - Simulates a full software company workflow from requirements to PRs using role-playing agents.
 - [Open Interpreter](https://github.com/KillianLucas/open-interpreter) - Execute code locally via natural-language model instructions.
 - [OpenDevin](https://github.com/OpenDevin/OpenDevin) - Autonomous software engineer for multi-step coding tasks and terminal automation.
-- [opencode](https://github.com/anomalyco/opencode) - The open source coding agent available as a desktop application
-- [OpenHands](https://github.com/OpenHands/OpenHands) - OpenHands: AI-Driven Development
-- [SWE-agent](https://github.com/SWE-agent/SWE-agent) - SWE-agent takes a GitHub issue and tries to automatically fix it, using your LM of choice. It can also be employed for offensive cybersecurity or competitive coding challenges.
+- [opencode](https://github.com/anomalyco/opencode) - The open source coding agent available as a desktop application.
+- [OpenHands](https://github.com/OpenHands/OpenHands) - AI-driven development platform for autonomous and collaborative software engineering.
+- [SWE-agent](https://github.com/SWE-agent/SWE-agent) - Automatically fixes GitHub issues using your LLM of choice, with support for cybersecurity and competitive coding challenges.
 
 ![](img/agent-plan.PNG)
 
 ## Memory and Context
 
-- [cognee](https://github.com/topoteretes/cognee) - Knowledge Engine for AI Agent Memory in 6 lines of code
+- [cognee](https://github.com/topoteretes/cognee) - Knowledge engine for AI agent memory in 6 lines of code.
 - [Cortex Memory](https://github.com/prem-research/cortex) - Solution for agent memory covering extraction, vector search, and optimization.
-- [graphiti](https://github.com/getzep/graphiti) - Build Real-Time Knowledge Graphs for AI Agents
-- [Langmem](https://github.com/langchain-ai/langmem) - LangMem helps agents learn and adapt from their interactions over time.
-- [letta](https://github.com/letta-ai/letta) - Letta is the platform for building stateful agents: AI with advanced memory that can learn and self-improve over time.
+- [graphiti](https://github.com/getzep/graphiti) - Build real-time knowledge graphs for AI agents.
+- [Langmem](https://github.com/langchain-ai/langmem) - Helps agents learn and adapt from their interactions over time.
 - [LlamaIndex](https://github.com/jerryjliu/llama_index) - Data framework for LLM applications with powerful indexing, retrieval, and RAG capabilities.
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications with long-term, short-term, and semantic memory extraction.
 - [memos](https://github.com/usememos/memos) - Open-source, self-hosted note-taking tool built for quick capture. Markdown-native, lightweight, and fully yours.
 - [Memvid](https://github.com/memvid/memvid) - Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.
-- [SimpleMem](https://github.com/aiming-lab/SimpleMem) - Efficient Lifelong Memory for LLM Agents Text & Multimodal
+- [SimpleMem](https://github.com/aiming-lab/SimpleMem) - Efficient lifelong memory for LLM agents, supporting text and multimodal data.
 - [Supermemory](https://github.com/supermemoryai/supermemory) - Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.
 
 ![alt text](img/image-1.png)
