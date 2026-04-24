@@ -48,7 +48,7 @@ There are other AI agent lists. Here's what makes this one different:
 - [Agent Deployment and Hosting](#agent-deployment-and-hosting)
 - [Agent Evaluation and Benchmarks](#agent-evaluation-and-benchmarks)
 - [Learning Resources](#learning-resources)
-- [Changelog](#changelog)
+- [Modern AI system](#modern-ai-system)
 
 ---
 
