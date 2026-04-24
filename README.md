@@ -2,7 +2,7 @@
 
 ![](img/ARUNAGIRINATHAN-K.png)
 
-# 🤖 Awesome AI Agents 2026
+# Awesome AI Agents 2026
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/ARUNAGIRINATHAN-K/awesome-ai-agents?style=social)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/stargazers)
