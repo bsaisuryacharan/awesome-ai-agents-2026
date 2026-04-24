@@ -262,6 +262,14 @@ Courses, papers, and guides for understanding AI agents.
 
 ---
 
+## Modern AI System
+
+> A high-level architecture view of how modern AI agent systems are structured — from foundation models to orchestration layers, memory, tools, and deployment.
+
+<img width="1440" alt="Modern AI System Architecture" src="https://github.com/user-attachments/assets/83bd2dab-c4b8-4e86-9839-aaa483e11d6e" />
+
+---
+
 ## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for the full update history.
