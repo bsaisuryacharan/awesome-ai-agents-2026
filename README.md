@@ -19,20 +19,6 @@
 
 ---
 
-## Why This List?
-
-There are other AI agent lists. Here's what makes this one different:
-
-- 🏷️ **Tagged & comparable** — every tool shows language, stars, and activity status
-- 📊 **Comparison tables** — side-by-side matrices to help you choose the right tool
-- 🗂️ **15 structured categories** — not a flat dump, a navigable taxonomy
-- 🔄 **Updated weekly** — we verify links and star counts regularly
-- 🧭 **Decision guides** — context to help you pick the right framework for your use case
-
-> 💡 **If you find this useful, please [star this repo](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents) — it helps others find it too!**
-
----
-
 ## Contents
 
 - [Orchestration Frameworks](#orchestration-frameworks)
@@ -88,8 +74,6 @@ The core frameworks for building, orchestrating, and running AI agents.
 - [Vercel AI SDK](https://github.com/vercel/ai) — Streaming-first primitives for AI UIs with React Server Components and edge runtime support. `TypeScript` · ⭐ ~18k · 📅 Active
 - [VoltAgent](https://github.com/voltagent/voltagent) — TypeScript agent framework with built-in observability and a self-improving context engine. `TypeScript` · ⭐ ~4k · 📅 Active
 
-![](img/orchestration.PNG)
-
 ---
 
 ## Coding Agents
@@ -117,8 +101,6 @@ AI-powered tools that write, edit, debug, and ship code — from terminal pair p
 - [Codex CLI](https://github.com/openai/codex) — OpenAI's lightweight, open-source terminal coding agent with fast execution and strong benchmark scores. `TypeScript` · ⭐ ~22k · 📅 Active
 - [Augment Code](https://github.com/augmentcode/augment) — AI coding assistant with deep codebase understanding and context-aware multi-file edits. `TypeScript` · ⭐ ~5k · 📅 Active
 
-![](img/agent-plan.PNG)
-
 ---
 
 ## Memory and Context
@@ -137,8 +119,6 @@ Persistent memory, knowledge graphs, and context management for agents that need
 - [Supermemory](https://github.com/supermemoryai/supermemory) — Extremely fast and scalable memory engine and API designed for the AI era. `TypeScript` · ⭐ ~7k · 📅 Active
 - [Acontext](https://github.com/memodb-io/Acontext) — Manages agent skills and long-term memory as a layered data structure for persistent context. `Python` · ⭐ ~1k · 📅 Active
 
-![](img/image-1.png)
-
 ---
 
 ## Multi-Agent Systems
@@ -151,8 +131,6 @@ Frameworks specifically designed for orchestrating multiple agents working toget
 - [MetaGPT](https://github.com/geekan/MetaGPT) — Simulates a full software company workflow from requirements to PRs using role-playing agents. `Python` · ⭐ ~61k · 📅 Active
 - [Swarm](https://github.com/openai/swarm) — Lightweight framework for agent handoffs, context variables, and function calling patterns from OpenAI. `Python` · ⭐ ~22k · 📅 Active
 - [Swarms Framework](https://github.com/kyegomez/swarms) — Multi-agent orchestration for production use cases with scalability and reliability at its core. `Python` · ⭐ ~4k · 📅 Active
-
-![](img/Multi-Agent.png)
 
 ---
 
@@ -195,8 +173,6 @@ Sandboxes, web scrapers, browser automation, and networking layers that agents d
 - [Notte](https://github.com/nottelabs/notte) — Browser automation engine optimized for production AI pipelines. `Python` · ⭐ ~2k · 📅 Active
 - [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol) — Networking stack for distributed agent systems with encrypted tunnels. `Python` · ⭐ ~1k · 📅 Active
 
-![](img/Agent-Tooling.png)
-
 ---
 
 ## Low and No-Code Builders
@@ -207,9 +183,7 @@ Visual and browser-based tools for building agents without writing code.
 - [Dify](https://github.com/langgenius/dify) — Open-source LLM app development platform with visual workflow builder and RAG orchestration. `Python` `TypeScript` · ⭐ ~75k · 📅 Active
 - [Langflow](https://github.com/langflow-ai/langflow) — Visual drag-and-drop builder for LLM workflows, RAG agents, and multi-step pipelines. `Python` · ⭐ ~55k · 📅 Active
 - [Wordware](https://wordware.ai) — Web-hosted IDE where domain experts collaborate with AI engineers to build agent workflows. `Hosted` · 📅 Active
-
-![](img/Low-and-No-Code-Builders.PNG)
-
+- 
 ---
 
 ## Voice and Multimodal Agents
@@ -274,8 +248,6 @@ Courses, papers, and guides for understanding AI agents.
 - [LLM Powered Autonomous Agents — Lilian Weng](https://lilianweng.github.io/posts/2023-06-23-agent/) — Deep breakdown of LLM-powered agent components: planning, memory, and tool use.
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — Community-maintained guide covering prompt engineering techniques and agent strategies.
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) — The foundational paper behind the ReAct prompting pattern used in most agent frameworks.
-
-![](img/learning.png)
 
 ---
 
