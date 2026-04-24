@@ -10,6 +10,7 @@ All notable changes to this list will be documented here.
 
 | Date | Change |
 |---|---|
+| April 24 2026 | Added 21 new tools — Cursor, Windsurf, Devin, Codex CLI, Augment Code to Coding Agents; Acontext to Memory; Docker MCP, Cloudflare MCP, Microsoft Fabric MCP to MCP; Operator to Browser Agents; Langfuse, Arize Phoenix, Laminar, Logfire, AgentDoG, DriftGuard to Safety & Observability; Terminal-Bench to Evaluation |
 | April 2026 | Major overhaul — added comparison tables, star counts, language tags, 3 new categories (MCP & Tool Protocols, Browser & Computer Use Agents, Agent Evaluation & Benchmarks), link-checker CI, badges, and "Why This List?" section |
 | April 2026 | Add new memory-related resources and Coding Agents |
 | April 2026 | Added new frameworks and resources for orchestration |

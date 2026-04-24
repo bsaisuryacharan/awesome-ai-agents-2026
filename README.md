@@ -111,6 +111,11 @@ AI-powered tools that write, edit, debug, and ship code — from terminal pair p
 - [opencode](https://github.com/anomalyco/opencode) — Open-source coding agent available as a desktop application with a visual interface. `TypeScript` · ⭐ ~5k · 📅 Active
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) — AI-driven development platform that writes, tests, and deploys code autonomously. `Python` · ⭐ ~56k · 📅 Active
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) — Takes a GitHub issue and tries to automatically fix it. Also used for cybersecurity and competitive coding. `Python` · ⭐ ~17k · 📅 Active
+- [Cursor](https://cursor.com) — AI-native IDE (VS Code fork) with deep codebase awareness, multi-file refactoring, and agentic workflows. `Proprietary` · 📅 Active
+- [Windsurf](https://windsurf.com) — AI-native IDE with Cascade agent for multi-step autonomous tasks and team workflows. `Proprietary` · 📅 Active
+- [Devin](https://devin.ai) — Fully autonomous AI software engineer that plans, codes, tests, and deploys in a cloud sandbox. `Proprietary` · 📅 Active
+- [Codex CLI](https://github.com/openai/codex) — OpenAI's lightweight, open-source terminal coding agent with fast execution and strong benchmark scores. `TypeScript` · ⭐ ~22k · 📅 Active
+- [Augment Code](https://github.com/augmentcode/augment) — AI coding assistant with deep codebase understanding and context-aware multi-file edits. `TypeScript` · ⭐ ~5k · 📅 Active
 
 ![](img/agent-plan.PNG)
 
@@ -130,6 +135,7 @@ Persistent memory, knowledge graphs, and context management for agents that need
 - [Memvid](https://github.com/memvid/memvid) — Replace complex RAG pipelines with a serverless, single-file memory layer for instant retrieval. `Python` · ⭐ ~4k · 📅 Active
 - [SimpleMem](https://github.com/aiming-lab/SimpleMem) — Efficient lifelong memory for LLM agents supporting both text and multimodal inputs. `Python` · ⭐ ~1k · 📅 Active
 - [Supermemory](https://github.com/supermemoryai/supermemory) — Extremely fast and scalable memory engine and API designed for the AI era. `TypeScript` · ⭐ ~7k · 📅 Active
+- [Acontext](https://github.com/memodb-io/Acontext) — Manages agent skills and long-term memory as a layered data structure for persistent context. `Python` · ⭐ ~1k · 📅 Active
 
 ![](img/image-1.png)
 
@@ -159,6 +165,9 @@ Frameworks specifically designed for orchestrating multiple agents working toget
 - [Toolhouse](https://github.com/toolhouseai/toolhouse) — Cloud-hosted tool infrastructure for agents with optimized execution and low-latency access. `Python` · ⭐ ~1k · 📅 Active
 - [Arcade AI](https://github.com/ArcadeAI/arcade-ai) — Tool-use platform with authentication, authorization, and logging for agent-tool interactions. `Python` · ⭐ ~1k · 📅 Active
 - [Zapier MCP Server](https://zapier.com/mcp) — Connect agents to 7,000+ app integrations via MCP, powered by Zapier's automation platform. `Hosted` · 📅 Active
+- [Docker MCP Toolkit](https://github.com/docker/mcp-toolkit) — Run MCP servers in isolated Docker containers for enhanced security and reproducibility. `Go` · ⭐ ~2k · 📅 Active
+- [Cloudflare MCP](https://developers.cloudflare.com/agents/mcp/) — MCP server portals with Shadow MCP detection for enterprise governance and security. `Hosted` · 📅 Active
+- [Microsoft Fabric MCP](https://github.com/microsoft/fabric-mcp) — Local and remote MCP for deep integration with Microsoft Fabric APIs and cloud environments. `TypeScript` · ⭐ ~1k · 📅 Active
 
 ---
 
@@ -171,6 +180,7 @@ Frameworks specifically designed for orchestrating multiple agents working toget
 - [Stagehand](https://github.com/browserbase/stagehand) — AI web browsing framework built on Playwright with natural-language selectors and actions. `TypeScript` · ⭐ ~11k · 📅 Active
 - [LaVague](https://github.com/lavague-ai/LaVague) — Large Action Model framework to turn natural language instructions into browser automation. `Python` · ⭐ ~6k · 📅 Active
 - [AgentQL](https://github.com/AgentQL/agentql) — AI-powered web scraping and automation with a semantic query language for page elements. `Python` · ⭐ ~2k · 📅 Active
+- [Operator](https://openai.com/operator) — OpenAI's browser agent that navigates the web and completes tasks on behalf of users autonomously. `Hosted` · 📅 Active
 
 ---
 
@@ -218,8 +228,14 @@ Frameworks for building agents that can hear, speak, see, and interact across mo
 Tools for governing, monitoring, and securing autonomous AI agents in production.
 
 - [Agent OS](https://github.com/buildermethods/agent-os) — Kernel architecture for governing autonomous AI agents with policy enforcement. `Python` · ⭐ ~1k · 📅 Active
+- [AgentDoG](https://github.com/AI45Lab/AgentDoG) — Diagnostic guardrails that analyze full agent execution trajectories to detect instruction hijacking and tool misuse. `Python` · ⭐ ~1k · 📅 Active
 - [AgentGuard](https://github.com/cyberark/agent-guard) — Runtime observability and guardrails for AI agents with loop detection and anomaly alerts. `Python` · ⭐ ~1k · 📅 Active
 - [APort Agent Guardrails](https://github.com/aporthq/aport-agent-guardrails) — Pre-action authorization plugin for agent frameworks with policy-based access control. `Python` · ⭐ ~1k · 📅 Active
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix) — Open-source observability platform built on OpenTelemetry for tracing, evaluating, and debugging AI agents. `Python` · ⭐ ~10k · 📅 Active
+- [DriftGuard](https://github.com/sujal-maheshwari2004/DriftGuard) — Semantic memory guardrails using causal graphs to prevent agents from repeating past failures. `Python` · ⭐ ~1k · 📅 Active
+- [Langfuse](https://github.com/langfuse/langfuse) — Open-source LLM observability platform for tracing, prompt versioning, and LLM-as-a-judge evaluations. `TypeScript` · ⭐ ~10k · 📅 Active
+- [Laminar](https://github.com/lmnr-ai/lmnr) — Open-source observability and analytics platform purpose-built for the full lifecycle of AI agents. `Rust` · ⭐ ~3k · 📅 Active
+- [Logfire](https://github.com/pydantic/logfire) — Python-native observability from the Pydantic team with deep integration for high-performance agent monitoring. `Python` · ⭐ ~4k · 📅 Active
 - [Orchard Kit](https://github.com/OrchardHarmonics/orchard-kit) — Modules for agent runtime security, self-audit trails, and collective cognition patterns. `Python` · ⭐ ~1k · 📅 Active
 
 ---
@@ -244,6 +260,7 @@ Platforms and tools for deploying, scaling, and hosting AI agents in production.
 - [GAIA Benchmark](https://huggingface.co/papers/2311.12983) — Benchmark for General AI Assistants measuring real-world reasoning and tool use. `Paper` · 📅 Active
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) — Framework for evaluating large language models with composable tasks and scoring. `Python` · ⭐ ~3k · 📅 Active
 - [SWE-bench](https://github.com/princeton-nlp/SWE-bench) — Benchmark for evaluating LLMs on real-world software engineering tasks from GitHub issues. `Python` · ⭐ ~3k · 📅 Active
+- [Terminal-Bench](https://github.com/terminal-bench/terminal-bench) — Benchmark for evaluating AI coding agents on real-world terminal-based development tasks. `Python` · ⭐ ~2k · 📅 Active
 
 ---
 
