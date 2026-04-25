@@ -208,7 +208,6 @@ Visual and browser-based tools for building agents without writing code.
 - [AgentGPT](https://github.com/reworkd/AgentGPT) - Deploy AI agents in the browser with zero local setup required.
 - [Dify](https://github.com/langgenius/dify) - Open-source LLM app development platform with visual workflow builder and RAG orchestration.
 - [Langflow](https://github.com/langflow-ai/langflow) - Visual drag-and-drop builder for LLM workflows, RAG agents, and multi-step pipelines.
-- [Wordware](https://wordware.ai) - Web-hosted IDE where domain experts collaborate with AI engineers to build agent workflows.
 
 ## Voice and Multimodal Agents
 
