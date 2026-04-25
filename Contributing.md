@@ -1,13 +1,13 @@
 # Contributing to Awesome AI Agents 2026
 
-First off — thank you. This list only stays useful because people like you take the time to keep it accurate and current.
+First off, thank you. This list only stays useful because people like you take the time to keep it accurate and current.
 
 There are four ways to contribute:
 
-- **Add a new tool** — something missing that belongs here
-- **Update an existing entry** — stars are outdated, description is wrong, links are broken
-- **Remove a dead project** — unmaintained repos that no longer belong
-- **Improve the structure** — better categories, clearer descriptions, fixed typos
+- **Add a new tool** - something missing that belongs here
+- **Update an existing entry** - description is wrong or links are broken
+- **Remove a dead project** - unmaintained repos that no longer belong
+- **Improve the structure** - better categories, clearer descriptions, fixed typos
 
 All contributions go through a pull request. It takes about 5 minutes.
 
@@ -18,113 +18,105 @@ All contributions go through a pull request. It takes about 5 minutes.
 Every entry follows this exact format:
 
 ```markdown
-### Tool Name
-**[GitHub](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents)** · **[Site](https://example.com)** · `Language` · ⭐ Xk
-
-One sentence describing what the tool does. One sentence on what makes it distinct or worth including over alternatives.
+- [Tool Name](https://github.com/org/repo) - One sentence describing what the tool does and what makes it distinct.
 ```
 
 **Rules:**
-- Tool name is an `###` heading — nothing else
-- GitHub link is **bold**. Site link is **bold**. Both are optional if they don't exist, but at least one must be present
-- Language tag uses backtick code formatting: `` `Python` ``, `` `TypeScript` ``, `` `Go` ``
-- Stars use shorthand: `24.8k` not `24,800`. Use `—` if unknown
-- Description is exactly **two sentences**. No more, no less
-- No trailing punctuation on the heading line
+
+- Entry starts with `- ` (a markdown list item)
+- Tool name is a link in square brackets: `[Tool Name](url)`
+- Description follows ` - ` (space, hyphen, space) after the closing parenthesis
+- Description is exactly **one sentence**, ending with a period
 - No promotional language ("the best", "revolutionary", "game-changing")
+- No trailing metadata (stars, language tags) - the maintainers add those during review
+- Entries within each category are sorted **alphabetically** by tool name
 
 **Good example:**
 
 ```markdown
-### Mem0
-**[GitHub](https://github.com/mem0ai/mem0)** · **[Site](https://mem0.ai)** · `Python` · ⭐ ~30k
-
-Memory layer for AI applications with long-term, short-term, and semantic memory extraction. Integrates with LangChain, CrewAI, and AutoGen via REST API and MCP server.
+- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications with long-term, short-term, and semantic memory extraction.
 ```
 
-**Bad example:**
+**Bad examples:**
 
 ```markdown
-### Mem0 - The Best Memory Solution 🚀🔥
-[GitHub](https://github.com/mem0ai/mem0) | [Site](https://mem0.ai) | Python | 30000 stars
+# Wrong: uses heading instead of list item
+### Mem0
+**[GitHub](https://github.com/mem0ai/mem0)** - Memory layer for AI
 
-Mem0 is an amazing, revolutionary memory layer that will transform how you build AI agents forever! It supports long-term memory, short-term memory, semantic memory, and so much more. Integrates with everything. You should definitely use it.
+# Wrong: uses em-dash instead of hyphen
+- [Mem0](https://github.com/mem0ai/mem0) — Memory layer for AI applications.
+
+# Wrong: promotional language
+- [Mem0](https://github.com/mem0ai/mem0) - The best and most revolutionary memory solution for AI.
+
+# Wrong: multiple sentences
+- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications. It supports long-term memory extraction.
 ```
 
 ---
 
 ## Inclusion Criteria
 
-| Criterion | Requirement |
-|---|---|
-| **Maintenance** | At least one commit in the last 6 months |
-| **Openness** | Open-source preferred; closed-source tools must have a public API or free tier |
-| **Relevance** | Must be directly useful for building, running, or managing AI agents |
-| **Differentiation** | Must be meaningfully different from tools already listed |
-| **Documentation** | Must have a README, docs site, or equivalent |
-| **Stability** | Proof-of-concept / experimental repos are acceptable if clearly labeled |
+Your tool should meet **all** of the following:
+
+1. **Directly related to AI agents** - not a general LLM tool, not a prompt library, not a generic API wrapper
+2. **Actively maintained** - last commit within the past 6 months
+3. **Publicly available** - open-source with a GitHub/GitLab repo, or a live hosted product with a public URL
+4. **Not a duplicate** - check the list first to make sure it is not already included
+5. **Functional** - the tool must actually work, not just be a README with no code
+
+Tools that are **experimental, early-stage, or have few stars** are welcome as long as they meet all five criteria above. We value breadth of coverage.
 
 ---
 
-## What We Don't Accept
+## Category Placement
 
-- Tools with no public source code and no public API
-- Abandoned repos (no commit in 6+ months) unless historically significant
-- Duplicate tools that don't add anything over an existing entry
-- Personal projects without any public usage or community traction
-- Entries that are primarily tutorials, blog posts, or YouTube channels (those go in Learning Resources only)
-- Anything that requires payment with no free tier or trial
+Place your entry in the **most specific category** that fits. If it spans multiple categories, pick the primary one. The maintainers may move it during review.
 
----
+Current categories:
 
-## Suggesting a New Section
-
-If you think a whole new category is missing, open an **Issue** rather than a PR. Describe:
-
-1. What the category would be called
-2. At least **3 tools** that would go in it
-3. Why it's distinct from existing categories
-
-We'll discuss it before restructuring.
-
----
-
-## Reporting a Dead Link or Outdated Entry
-
-Open an Issue with:
-
-- The tool name
-- What's wrong (dead link / outdated stars / project abandoned / etc.)
-- A suggested fix if you have one
-
-Or just open a PR directly with the fix — that's even better.
+- **Orchestration Frameworks** - core agent building frameworks
+- **Coding Agents** - tools that write, edit, and debug code
+- **Memory and Context** - persistent memory and knowledge graphs
+- **Multi-Agent Systems** - multi-agent coordination frameworks
+- **Agent Communication Protocols** - MCP, A2A, and tool protocol implementations
+- **Browser and Computer Use Agents** - web navigation and UI automation
+- **Agent Tooling and Infrastructure** - sandboxes, scrapers, and networking
+- **Low and No-Code Builders** - visual and browser-based agent builders
+- **Voice and Multimodal Agents** - audio, video, and cross-modal agents
+- **Safety Guardrails and Observability** - monitoring, security, and governance
+- **Agent Deployment and Hosting** - platforms for running agents in production
+- **Agent Evaluation and Benchmarks** - benchmarks and evaluation frameworks
+- **Learning Resources** - courses, papers, and guides
 
 ---
 
-## How PRs Are Reviewed
+## Pull Request Process
 
-PRs are typically reviewed within **72 hours**. A maintainer will either merge, request changes, or explain why the tool doesn't fit. Please don't take rejections personally — the bar is intentionally high to keep the list signal-to-noise ratio useful.
+1. **Fork** this repo
+2. **Add** your entry in the correct category, in alphabetical order
+3. **Verify** that your link works and your description follows the format above
+4. **Submit** a pull request with a clear title like: `Add [Tool Name] to [Category]`
 
-If your PR sits without a response for more than a week, feel free to leave a comment to bump it.
-
----
-
-## Style Guide
-
-A few small things that keep the list consistent:
-
-- Use **em dashes** (`—`) not hyphens (`-`) for separators in descriptions
-- Use `~` prefix for approximate star counts: `⭐ ~30k`
-- Spell out framework names as they brand themselves: `LangGraph` not `Langgraph`, `CrewAI` not `CrewAi`
-- Prefer active voice: "Builds stateful workflows" not "Can be used to build stateful workflows"
-- Avoid the word "simple" — show don't tell
+The maintainers will review your PR within a few days. We may suggest edits to the description or move the entry to a different category.
 
 ---
 
-## License
+## Quality Standards
 
-By contributing, you agree that your contributions will be licensed under the same [CC0 license](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/blob/main/LICENSE) as the rest of this project. This means you're releasing your contribution into the public domain.
+This list passes `awesome-lint` and automated link checking on every push. Your PR must:
+
+- Pass the awesome-lint check (no em-dashes, no duplicate links, correct formatting)
+- Have no broken links
+- Follow alphabetical ordering within its category
 
 ---
 
-*Thank you for helping keep this list useful for the entire AI agent community.*
+## Code of Conduct
+
+By contributing, you agree to abide by the [Code of Conduct](Code_of_conduct.md). Be respectful, constructive, and collaborative.
+
+---
+
+Thank you for helping make this the most useful AI agent resource on GitHub.
