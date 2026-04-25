@@ -8,6 +8,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/ARUNAGIRINATHAN-K/awesome-ai-agents?style=social)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/ARUNAGIRINATHAN-K/awesome-ai-agents)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/commits/main)
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](LICENSE)
+[![Tools Listed](https://img.shields.io/badge/tools_listed-110+-blue)]()
 
 The most comprehensive, structured guide to AI agent frameworks, tools, and resources. Updated weekly. Compared side-by-side. Built for developers who ship.
 
@@ -19,7 +20,7 @@ The most comprehensive, structured guide to AI agent frameworks, tools, and reso
 - [Coding Agents](#coding-agents)
 - [Memory and Context](#memory-and-context)
 - [Multi-Agent Systems](#multi-agent-systems)
-- [MCP and Tool Protocols](#mcp-and-tool-protocols)
+- [Agent Communication Protocols](#agent-communication-protocols)
 - [Browser and Computer Use Agents](#browser-and-computer-use-agents)
 - [Agent Tooling and Infrastructure](#agent-tooling-and-infrastructure)
 - [Low and No-Code Builders](#low-and-no-code-builders)
@@ -67,13 +68,24 @@ The core frameworks for building, orchestrating, and running AI agents.
 - [Vercel AI SDK](https://github.com/vercel/ai) - Streaming-first primitives for AI UIs with React Server Components and edge runtime support.
 - [VoltAgent](https://github.com/voltagent/voltagent) - TypeScript agent framework with built-in observability and a self-improving context engine.
 
-![](img/orchestration.PNG)
-
 ## Coding Agents
 
 AI-powered tools that write, edit, debug, and ship code from terminal pair programmers to full autonomous software engineers.
 
-> **How to choose:** Want terminal-first? Aider, Claude Code, gemini-cli. IDE-integrated? Cline, Continue. Full autonomy? OpenHands, SWE-agent.
+> **How to choose:** Want terminal-first? Aider, Claude Code, gemini-cli. IDE-integrated? Cline, Continue, Cursor. Full autonomy? OpenHands, SWE-agent, Devin.
+
+| Agent       | Type       | Open Source | Interface | Best For                   |
+| ----------- | ---------- | ----------- | --------- | -------------------------- |
+| Aider       | Terminal   | Yes         | CLI       | Git-aware pair programming |
+| Claude Code | Terminal   | Yes         | CLI       | Multi-file edits + tests   |
+| gemini-cli  | Terminal   | Yes         | CLI       | Google ecosystem           |
+| Codex CLI   | Terminal   | Yes         | CLI       | Fast autonomous tasks      |
+| Cline       | IDE        | Yes         | VS Code   | Permission-gated editing   |
+| Continue    | IDE        | Yes         | VS Code   | CI-enforceable checks      |
+| Cursor      | IDE        | No          | Desktop   | Deep codebase refactoring  |
+| Windsurf    | IDE        | No          | Desktop   | Team collaboration         |
+| Devin       | Autonomous | No          | Cloud     | End-to-end engineering     |
+| OpenHands   | Autonomous | Yes         | Web       | Full dev lifecycle         |
 
 - [Aider](https://github.com/Aider-AI/aider) - Terminal-first pair programmer that edits code in local repos, preserves Git history, and supports multi-file changes.
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Mature autonomous agent platform with Forge framework and public benchmarks for evaluating agent capabilities.
@@ -92,11 +104,19 @@ AI-powered tools that write, edit, debug, and ship code from terminal pair progr
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) - Takes a GitHub issue and tries to automatically fix it. Also used for cybersecurity and competitive coding.
 - [Windsurf](https://windsurf.com) - AI-native IDE with Cascade agent for multi-step autonomous tasks and team workflows.
 
-![](img/agent-plan.PNG)
-
 ## Memory and Context
 
 Persistent memory, knowledge graphs, and context management for agents that need to remember, learn, and adapt.
+
+> **How to choose:** Need plug-and-play memory? Mem0. Knowledge graphs? graphiti, cognee. Video/document retrieval? Memvid. Full-stack solution? Cortex Memory.
+
+| Solution    | Approach        | Graph Support | Multi-Modal | Stars |
+| ----------- | --------------- | ------------- | ----------- | ----- |
+| Mem0        | Hybrid          | No            | No          | ~30k  |
+| graphiti    | Knowledge Graph | Yes           | No          | ~4k   |
+| cognee      | Graph + Vector  | Yes           | No          | ~3k   |
+| Supermemory | Vector          | No            | No          | ~7k   |
+| Memvid      | Video-based     | No            | Yes         | ~4k   |
 
 - [Acontext](https://github.com/memodb-io/Acontext) - Manages agent skills and long-term memory as a layered data structure for persistent context.
 - [cognee](https://github.com/topoteretes/cognee) - Knowledge engine for AI agent memory, set up in 6 lines of code with graph-based knowledge extraction.
@@ -108,10 +128,11 @@ Persistent memory, knowledge graphs, and context management for agents that need
 - [SimpleMem](https://github.com/aiming-lab/SimpleMem) - Efficient lifelong memory for LLM agents supporting both text and multimodal inputs.
 - [Supermemory](https://github.com/supermemoryai/supermemory) - Extremely fast and scalable memory engine and API designed for the AI era.
 
-
 ## Multi-Agent Systems
 
 Frameworks specifically designed for orchestrating multiple agents working together on shared objectives.
+
+> **How to choose:** Need a quick prototype? Swarm. Full software team simulation? MetaGPT. Production-scale orchestration? Swarms Framework. Research playground? AgentVerse.
 
 - [AgentVerse](https://github.com/OpenBMB/AgentVerse) - Framework for building custom multi-agent environments to accomplish collaborative tasks.
 - [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) - Evaluates and evolves agentic workflows over time using automatic optimization.
@@ -120,11 +141,19 @@ Frameworks specifically designed for orchestrating multiple agents working toget
 - [Swarm](https://github.com/openai/swarm) - Lightweight framework for agent handoffs, context variables, and function calling patterns from OpenAI.
 - [Swarms Framework](https://github.com/kyegomez/swarms) - Multi-agent orchestration for production use cases with scalability and reliability at its core.
 
-![](img/Multi-Agent.png)
+## Agent Communication Protocols
 
-## MCP and Tool Protocols
+The protocol layer that enables agents to discover tools, communicate with each other, and interoperate across ecosystems.
 
-Model Context Protocol (MCP) is the emerging standard for connecting agents to external tools and data sources.
+> **How to choose:** Connecting agents to tools? MCP. Agent-to-agent communication? A2A. Both? Use MCP for tools and A2A for coordination.
+
+| Protocol | Purpose             | Creator   | Status   |
+| -------- | ------------------- | --------- | -------- |
+| MCP      | Agent-to-tool       | Anthropic | Standard |
+| A2A      | Agent-to-agent      | Google    | Growing  |
+| ACP      | Agent communication | IBM/BeeAI | Early    |
+
+### MCP (Model Context Protocol)
 
 - [Arcade AI](https://github.com/ArcadeAI/arcade-mcp) - Tool-use platform with authentication, authorization, and logging for agent-tool interactions.
 - [Composio](https://github.com/ComposioHQ/composio) - Integration platform with 250+ pre-built tool connectors for AI agents and LLMs.
@@ -133,9 +162,23 @@ Model Context Protocol (MCP) is the emerging standard for connecting agents to e
 - [Toolhouse](https://toolhouse.ai) - Cloud-hosted tool infrastructure for agents with optimized execution and low-latency access.
 - [Zapier MCP Server](https://zapier.com/mcp) - Connect agents to 7,000+ app integrations via MCP, powered by Zapier's automation platform.
 
+### A2A (Agent-to-Agent Protocol)
+
+- [A2A Protocol](https://github.com/google/A2A) - Google's open protocol enabling AI agents to communicate, collaborate, and delegate tasks across frameworks.
+
 ## Browser and Computer Use Agents
 
 Agents that navigate the web, interact with UIs, and automate computer tasks.
+
+> **How to choose:** Need Playwright-based reliability? Stagehand. Vision-based generalization? Skyvern. Full browser control? Browser Use. Web scraping? AgentQL.
+
+| Agent       | Approach        | Base         | Stars |
+| ----------- | --------------- | ------------ | ----- |
+| Browser Use | LLM navigation  | Playwright   | ~30k  |
+| Stagehand   | NL selectors    | Playwright   | ~11k  |
+| Skyvern     | Computer vision | Custom       | ~11k  |
+| LaVague     | Action model    | Selenium     | ~6k   |
+| AgentQL     | Semantic query  | Custom       | ~2k   |
 
 - [AgentQL](https://github.com/TinyFish-Inc/agentql) - AI-powered web scraping and automation with a semantic query language for page elements.
 - [Browser Use](https://github.com/browser-use/browser-use) - Open-source framework to let LLMs navigate and interact with any website programmatically.
@@ -147,6 +190,8 @@ Agents that navigate the web, interact with UIs, and automate computer tasks.
 
 Sandboxes, web scrapers, browser automation, and networking layers that agents depend on.
 
+> **How to choose:** Need code sandboxing? E2B. Web scraping for LLMs? Firecrawl. Full agent deployment? AgentDock.
+
 - [AgentDock](https://github.com/agentdock/agentdock) - Framework for building and deploying production-ready AI agents with composable node architecture.
 - [E2B](https://github.com/e2b-dev/e2b) - Cloud sandboxes for AI agents to run code securely in isolated environments.
 - [Engram](https://github.com/kwstx/engram_translator) - Universal bridge for multi-protocol AI agent systems with automated semantic mapping.
@@ -154,22 +199,22 @@ Sandboxes, web scrapers, browser automation, and networking layers that agents d
 - [Notte](https://github.com/nottelabs/notte) - Browser automation engine optimized for production AI pipelines.
 - [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol) - Networking stack for distributed agent systems with encrypted tunnels.
 
-![](img/Agent-Tooling.png)
-
 ## Low and No-Code Builders
 
 Visual and browser-based tools for building agents without writing code.
+
+> **How to choose:** Need full RAG orchestration? Dify. Drag-and-drop pipelines? Langflow. Zero-setup browser agent? AgentGPT.
 
 - [AgentGPT](https://github.com/reworkd/AgentGPT) - Deploy AI agents in the browser with zero local setup required.
 - [Dify](https://github.com/langgenius/dify) - Open-source LLM app development platform with visual workflow builder and RAG orchestration.
 - [Langflow](https://github.com/langflow-ai/langflow) - Visual drag-and-drop builder for LLM workflows, RAG agents, and multi-step pipelines.
 - [Wordware](https://wordware.ai) - Web-hosted IDE where domain experts collaborate with AI engineers to build agent workflows.
 
-![](img/Low-and-No-Code-Builders.PNG)
-
 ## Voice and Multimodal Agents
 
 Frameworks for building agents that can hear, speak, see, and interact across modalities.
+
+> **How to choose:** Need real-time voice? LiveKit Agents, Vapi. Streaming pipelines? Pipecat. Multimodal RAG? Agentset.
 
 - [Agentset](https://github.com/agentset-ai/agentset) - Production RAG platform with reasoning, hybrid search, and full multimodal support.
 - [LiveKit Agents](https://github.com/livekit/agents) - Framework for building real-time, multimodal AI agents with voice, video, and data channels.
@@ -179,6 +224,8 @@ Frameworks for building agents that can hear, speak, see, and interact across mo
 ## Safety Guardrails and Observability
 
 Tools for governing, monitoring, and securing autonomous AI agents in production.
+
+> **How to choose:** Need full observability? Langfuse, Arize Phoenix. Runtime guardrails? AgentGuard, AgentDoG. Python-native monitoring? Logfire.
 
 - [Agent OS](https://github.com/buildermethods/agent-os) - Kernel architecture for governing autonomous AI agents with policy enforcement.
 - [AgentDoG](https://github.com/AI45Lab/AgentDoG) - Diagnostic guardrails that analyze full agent execution trajectories to detect instruction hijacking and tool misuse.
@@ -195,6 +242,8 @@ Tools for governing, monitoring, and securing autonomous AI agents in production
 
 Platforms and tools for deploying, scaling, and hosting AI agents in production.
 
+> **How to choose:** Need serverless GPU? Modal. AWS-native? Bedrock AgentCore. Git-push deploy? Railway, Northflank. Background jobs? Trigger.dev.
+
 - [AWS Bedrock AgentCore](https://github.com/awslabs/agentcore-samples) - Managed AWS infrastructure for Bedrock-based agents with compliance, scaling, and monitoring built in.
 - [Modal](https://github.com/modal-labs/modal-client) - Serverless GPU compute purpose-built for AI workloads with fast cold starts and Python-native deployment.
 - [Northflank](https://northflank.com/) - Full-stack platform with GPU orchestration, Git-based CI/CD, and bring-your-own-cloud support.
@@ -204,6 +253,8 @@ Platforms and tools for deploying, scaling, and hosting AI agents in production.
 ## Agent Evaluation and Benchmarks
 
 If you are building agents, you need to measure them. These tools help you evaluate, score, and compare agent performance.
+
+> **How to choose:** Evaluating coding agents? SWE-bench. General reasoning? GAIA. Multi-environment testing? AgentBench. Custom evals? Inspect AI.
 
 - [AgentBench](https://github.com/THUDM/AgentBench) - Comprehensive benchmark for evaluating LLMs as agents across 8 distinct environments.
 - [GAIA Benchmark](https://huggingface.co/papers/2311.12983) - Benchmark for General AI Assistants measuring real-world reasoning and tool use.
@@ -220,8 +271,6 @@ Courses, papers, and guides for understanding AI agents.
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) - Deep breakdown of LLM-powered agent components: planning, memory, and tool use.
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - Community-maintained guide covering prompt engineering techniques and agent strategies.
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - The foundational paper behind the ReAct prompting pattern used in most agent frameworks.
-
-![](img/learning.png)
 
 ## Modern AI System
 
