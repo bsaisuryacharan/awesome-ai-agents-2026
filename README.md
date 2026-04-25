@@ -244,7 +244,7 @@ Courses, papers, and guides for understanding AI agents.
 
 - [AI Agents in LangGraph — DeepLearning.ai](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) — Short course on building production agents with LangGraph by Andrew Ng's platform.
 - [AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2309.07864) — The benchmark paper for evaluating LLMs as agents across diverse environments.
-- [Building Effective Agents — Anthropic](https://www.anthropic.com/research/building-effective-agents) — Anthropic's guide on agent design patterns, evaluation strategies, and production best practices.
+- [Building Effective Agents — Anthropic](https://www.anthropic.com/engineering/building-effective-agents) — Anthropic's guide on agent design patterns, evaluation strategies, and production best practices.
 - [LLM Powered Autonomous Agents — Lilian Weng](https://lilianweng.github.io/posts/2023-06-23-agent/) — Deep breakdown of LLM-powered agent components: planning, memory, and tool use.
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) — Community-maintained guide covering prompt engineering techniques and agent strategies.
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) — The foundational paper behind the ReAct prompting pattern used in most agent frameworks.
