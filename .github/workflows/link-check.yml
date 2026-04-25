@@ -11,6 +11,8 @@ jobs:
   link-check:
     name: Verify all links are alive
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
