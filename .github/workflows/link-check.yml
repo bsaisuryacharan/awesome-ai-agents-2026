@@ -7,6 +7,10 @@ on:
     branches: [main, master]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   link-check:
     name: Verify all links are alive
@@ -32,7 +36,7 @@ jobs:
           fail: true
 
       - name: Create issue on failure
-        if: failure()
+        if: failure() && github.event_name != 'pull_request'
         uses: peter-evans/create-issue-from-file@v5
         with:
           title: "🔗 Broken links detected"

@@ -108,7 +108,6 @@ Persistent memory, knowledge graphs, and context management for agents that need
 - [SimpleMem](https://github.com/aiming-lab/SimpleMem) - Efficient lifelong memory for LLM agents supporting both text and multimodal inputs.
 - [Supermemory](https://github.com/supermemoryai/supermemory) - Extremely fast and scalable memory engine and API designed for the AI era.
 
-![](img/image-1.png)
 
 ## Multi-Agent Systems
 
