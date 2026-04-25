@@ -191,7 +191,10 @@ Visual and browser-based tools for building agents without writing code.
 Frameworks for building agents that can hear, speak, see, and interact across modalities.
 
 - [Agentset](https://github.com/agentset-ai/agentset) — Production RAG platform with reasoning, hybrid search, and full multimodal support. `TypeScript` · ⭐ ~1k · 📅 Active
-- [AnveVoice](https://anvevoice.app) — Voice AI agent for websites with agentic DOM actions — navigates pages, fills forms, clicks buttons. 50+ languages, <700ms latency. Free tier. `Hosted` · 📅 Active
+### AnveVoice
+**[Site](https://anvevoice.app)** · `Hosted` · 📅 Active
+
+Voice AI agent for websites that performs agentic DOM actions — navigating pages, filling forms, and clicking buttons through voice commands. Distinct from voice frameworks by combining sub-700ms latency with 50+ language support and a permanent free tier.
 - [LiveKit Agents](https://github.com/livekit/agents) — Framework for building real-time, multimodal AI agents with voice, video, and data channels. `Python` · ⭐ ~5k · 📅 Active
 - [Pipecat](https://github.com/pipecat-ai/pipecat) — Open-source framework for voice and multimodal conversational AI with streaming pipelines. `Python` · ⭐ ~6k · 📅 Active
 - [Vapi](https://github.com/VapiAI/server-sdk-python) — Platform for building voice AI agents with low-latency speech-to-speech capabilities. `Python` · ⭐ ~1k · 📅 Active
