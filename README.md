@@ -55,7 +55,7 @@ The core frameworks for building, orchestrating, and running AI agents.
 
 - [Agno](https://github.com/agno-agi/agno) — Multi-agent framework with a runtime and control plane for managing agent deployments at scale. `Python` · ⭐ ~18k · 📅 Active
 - [AutoGen](https://github.com/microsoft/autogen) — Event-driven multi-agent framework merged with Semantic Kernel for production workflows. `Python` · ⭐ ~52k · 📅 Active
-- [CrewAI](https://github.com/joaomdmoura/crewAI) — Role-playing agent orchestration for collaborative agent teams. `Python` · ⭐ ~41k · 📅 Active
+- [CrewAI](https://github.com/crewAIInc/crewAI) — Role-playing agent orchestration for collaborative agent teams. `Python` · ⭐ ~41k · 📅 Active
 - [Google ADK](https://github.com/google/adk-python) — Modular agent dev kit integrating Gemini and Vertex AI natively. `Python` · ⭐ ~12k · 📅 Active
 - [Haystack](https://github.com/deepset-ai/haystack) — Production-ready AI orchestration framework focused on building customizable LLM applications and RAG pipelines. `Python` · ⭐ ~20k · 📅 Active
 - [LangGraph](https://github.com/langchain-ai/langgraph) — Enterprise framework for stateful, graph-based agent workflows. `Python` · ⭐ ~12k · 📅 Active
@@ -89,17 +89,17 @@ AI-powered tools that write, edit, debug, and ship code — from terminal pair p
 - [Codex-CLI](https://github.com/microsoft/Codex-CLI) — CLI tool that turns natural language commands into Bash, ZShell, and PowerShell equivalents. `TypeScript` · ⭐ ~8k · 📅 Slow
 - [Continue](https://github.com/continuedev/continue) — Source-controlled AI checks enforceable in CI, powered by the open-source Continue CLI. `TypeScript` · ⭐ ~25k · 📅 Active
 - [gemini-cli](https://github.com/google-gemini/gemini-cli) — Open-source AI agent that brings the power of Gemini directly into your terminal. `TypeScript` · ⭐ ~52k · 📅 Active
-- [Goose](https://github.com/block/goose) — Open-source extensible AI agent that goes beyond code suggestions — installs, executes, edits, and tests with any LLM. `Rust` · ⭐ ~16k · 📅 Active
-- [Open Interpreter](https://github.com/KillianLucas/open-interpreter) — Execute code locally via natural-language model instructions with a ChatGPT-like interface. `Python` · ⭐ ~58k · 📅 Active
-- [OpenDevin](https://github.com/OpenDevin/OpenDevin) — Autonomous software engineer for multi-step coding tasks and terminal automation. `Python` · ⭐ ~5k · 📅 Active
+- [Goose](https://github.com/aaif-goose/goose) — Open-source extensible AI agent that goes beyond code suggestions — installs, executes, edits, and tests with any LLM. `Rust` · ⭐ ~16k · 📅 Active
+- [Open Interpreter](https://github.com/openinterpreter/open-interpreter) — Execute code locally via natural-language model instructions with a ChatGPT-like interface. `Python` · ⭐ ~58k · 📅 Active
+- [OpenDevin](https://github.com/OpenHands/OpenHands) — Autonomous software engineer for multi-step coding tasks and terminal automation. `Python` · ⭐ ~5k · 📅 Active
 - [opencode](https://github.com/anomalyco/opencode) — Open-source coding agent available as a desktop application with a visual interface. `TypeScript` · ⭐ ~5k · 📅 Active
-- [OpenHands](https://github.com/All-Hands-AI/OpenHands) — AI-driven development platform that writes, tests, and deploys code autonomously. `Python` · ⭐ ~56k · 📅 Active
+- [OpenHands](https://github.com/OpenHands/OpenHands) — AI-driven development platform that writes, tests, and deploys code autonomously. `Python` · ⭐ ~56k · 📅 Active
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent) — Takes a GitHub issue and tries to automatically fix it. Also used for cybersecurity and competitive coding. `Python` · ⭐ ~17k · 📅 Active
 - [Cursor](https://cursor.com) — AI-native IDE (VS Code fork) with deep codebase awareness, multi-file refactoring, and agentic workflows. `Proprietary` · 📅 Active
 - [Windsurf](https://windsurf.com) — AI-native IDE with Cascade agent for multi-step autonomous tasks and team workflows. `Proprietary` · 📅 Active
 - [Devin](https://devin.ai) — Fully autonomous AI software engineer that plans, codes, tests, and deploys in a cloud sandbox. `Proprietary` · 📅 Active
 - [Codex CLI](https://github.com/openai/codex) — OpenAI's lightweight, open-source terminal coding agent with fast execution and strong benchmark scores. `TypeScript` · ⭐ ~22k · 📅 Active
-- [Augment Code](https://github.com/augmentcode/augment) — AI coding assistant with deep codebase understanding and context-aware multi-file edits. `TypeScript` · ⭐ ~5k · 📅 Active
+- [Augment Code](https://github.com/augmentcode/auggie) — AI coding assistant with deep codebase understanding and context-aware multi-file edits. `TypeScript` · ⭐ ~5k · 📅 Active
 
 ---
 
@@ -128,7 +128,7 @@ Frameworks specifically designed for orchestrating multiple agents working toget
 - [AgentVerse](https://github.com/OpenBMB/AgentVerse) — Framework for building custom multi-agent environments to accomplish collaborative tasks. `Python` · ⭐ ~4k · 📅 Active
 - [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) — Evaluates and evolves agentic workflows over time using automatic optimization. `Python` · ⭐ ~1k · 📅 Active
 - [Hivemoot](https://github.com/hivemoot/hivemoot) — Autonomous agent teams that collaboratively build software on GitHub. `Python` · ⭐ ~1k · 📅 Active
-- [MetaGPT](https://github.com/geekan/MetaGPT) — Simulates a full software company workflow from requirements to PRs using role-playing agents. `Python` · ⭐ ~61k · 📅 Active
+- [MetaGPT](https://github.com/FoundationAgents/MetaGPT) — Simulates a full software company workflow from requirements to PRs using role-playing agents. `Python` · ⭐ ~61k · 📅 Active
 - [Swarm](https://github.com/openai/swarm) — Lightweight framework for agent handoffs, context variables, and function calling patterns from OpenAI. `Python` · ⭐ ~22k · 📅 Active
 - [Swarms Framework](https://github.com/kyegomez/swarms) — Multi-agent orchestration for production use cases with scalability and reliability at its core. `Python` · ⭐ ~4k · 📅 Active
 
@@ -140,12 +140,12 @@ Frameworks specifically designed for orchestrating multiple agents working toget
 
 - [Composio](https://github.com/ComposioHQ/composio) — Integration platform with 250+ pre-built tool connectors for AI agents and LLMs. `Python` `TypeScript` · ⭐ ~18k · 📅 Active
 - [MCP Registry](https://github.com/modelcontextprotocol) — Official Model Context Protocol specification and server implementations for standardized tool access. `TypeScript` · 📅 Active
-- [Toolhouse](https://github.com/toolhouseai/toolhouse) — Cloud-hosted tool infrastructure for agents with optimized execution and low-latency access. `Python` · ⭐ ~1k · 📅 Active
-- [Arcade AI](https://github.com/ArcadeAI/arcade-ai) — Tool-use platform with authentication, authorization, and logging for agent-tool interactions. `Python` · ⭐ ~1k · 📅 Active
+- [Toolhouse](https://github.com/toolhouseai/toolhouse-sdk-python) — Cloud-hosted tool infrastructure for agents with optimized execution and low-latency access. `Python` · ⭐ ~1k · 📅 Active
+- [Arcade AI](https://github.com/ArcadeAI/arcade-mcp) — Tool-use platform with authentication, authorization, and logging for agent-tool interactions. `Python` · ⭐ ~1k · 📅 Active
 - [Zapier MCP Server](https://zapier.com/mcp) — Connect agents to 7,000+ app integrations via MCP, powered by Zapier's automation platform. `Hosted` · 📅 Active
-- [Docker MCP Toolkit](https://github.com/docker/mcp-toolkit) — Run MCP servers in isolated Docker containers for enhanced security and reproducibility. `Go` · ⭐ ~2k · 📅 Active
-- [Cloudflare MCP](https://developers.cloudflare.com/agents/mcp/) — MCP server portals with Shadow MCP detection for enterprise governance and security. `Hosted` · 📅 Active
-- [Microsoft Fabric MCP](https://github.com/microsoft/fabric-mcp) — Local and remote MCP for deep integration with Microsoft Fabric APIs and cloud environments. `TypeScript` · ⭐ ~1k · 📅 Active
+- [Docker MCP Toolkit](https://github.com/docker/mcp-gateway) — Run MCP servers in isolated Docker containers for enhanced security and reproducibility. `Go` · ⭐ ~2k · 📅 Active
+- [Cloudflare MCP](https://developers.cloudflare.com/agents/) — MCP server portals with Shadow MCP detection for enterprise governance and security. `Hosted` · 📅 Active
+- [Microsoft Fabric MCP](https://github.com/microsoft/fabric-rti-mcp) — Local and remote MCP for deep integration with Microsoft Fabric APIs and cloud environments. `TypeScript` · ⭐ ~1k · 📅 Active
 
 ---
 
@@ -157,8 +157,8 @@ Frameworks specifically designed for orchestrating multiple agents working toget
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) — Automate browser-based workflows with computer vision and LLMs — no brittle selectors needed. `Python` · ⭐ ~11k · 📅 Active
 - [Stagehand](https://github.com/browserbase/stagehand) — AI web browsing framework built on Playwright with natural-language selectors and actions. `TypeScript` · ⭐ ~11k · 📅 Active
 - [LaVague](https://github.com/lavague-ai/LaVague) — Large Action Model framework to turn natural language instructions into browser automation. `Python` · ⭐ ~6k · 📅 Active
-- [AgentQL](https://github.com/AgentQL/agentql) — AI-powered web scraping and automation with a semantic query language for page elements. `Python` · ⭐ ~2k · 📅 Active
-- [Operator](https://openai.com/operator) — OpenAI's browser agent that navigates the web and completes tasks on behalf of users autonomously. `Hosted` · 📅 Active
+- [AgentQL](https://github.com/tinyfish-io/agentql) — AI-powered web scraping and automation with a semantic query language for page elements. `Python` · ⭐ ~2k · 📅 Active
+- [Operator](https://openai.com/chatgpt/operator) — OpenAI's browser agent that navigates the web and completes tasks on behalf of users autonomously. `Hosted` · 📅 Active
 
 ---
 
@@ -169,7 +169,7 @@ Sandboxes, web scrapers, browser automation, and networking layers that agents d
 - [AgentDock](https://github.com/agentdock/agentdock) — Framework for building and deploying production-ready AI agents with composable node architecture. `TypeScript` · ⭐ ~1k · 📅 Active
 - [Engram](https://github.com/kwstx/engram_translator) — Universal bridge for multi-protocol AI agent systems with automated semantic mapping. `Python` · ⭐ ~1k · 📅 Active
 - [E2B](https://github.com/e2b-dev/e2b) — Cloud sandboxes for AI agents to run code securely in isolated environments. `TypeScript` · ⭐ ~5k · 📅 Active
-- [Firecrawl](https://github.com/mendableai/firecrawl) — Web scraping API built for LLMs that converts websites to clean, structured markdown. `TypeScript` · ⭐ ~25k · 📅 Active
+- [Firecrawl](https://github.com/firecrawl/firecrawl) — Web scraping API built for LLMs that converts websites to clean, structured markdown. `TypeScript` · ⭐ ~25k · 📅 Active
 - [Notte](https://github.com/nottelabs/notte) — Browser automation engine optimized for production AI pipelines. `Python` · ⭐ ~2k · 📅 Active
 - [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol) — Networking stack for distributed agent systems with encrypted tunnels. `Python` · ⭐ ~1k · 📅 Active
 
@@ -182,7 +182,7 @@ Visual and browser-based tools for building agents without writing code.
 - [AgentGPT](https://github.com/reworkd/AgentGPT) — Deploy AI agents in the browser with zero local setup required. `TypeScript` · ⭐ ~33k · 📅 Slow
 - [Dify](https://github.com/langgenius/dify) — Open-source LLM app development platform with visual workflow builder and RAG orchestration. `Python` `TypeScript` · ⭐ ~75k · 📅 Active
 - [Langflow](https://github.com/langflow-ai/langflow) — Visual drag-and-drop builder for LLM workflows, RAG agents, and multi-step pipelines. `Python` · ⭐ ~55k · 📅 Active
-- [Wordware](https://wordware.ai) — Web-hosted IDE where domain experts collaborate with AI engineers to build agent workflows. `Hosted` · 📅 Active
+- [Wordware](https://www.wordware.ai/) — Web-hosted IDE where domain experts collaborate with AI engineers to build agent workflows. `Hosted` · 📅 Active
 - 
 ---
 
@@ -218,7 +218,7 @@ Tools for governing, monitoring, and securing autonomous AI agents in production
 
 Platforms and tools for deploying, scaling, and hosting AI agents in production.
 
-- [AWS Bedrock AgentCore](https://github.com/awslabs/amazon-bedrock-agentcore-samples/) — Managed AWS infrastructure for Bedrock-based agents with compliance, scaling, and monitoring built in. `Python` · ⭐ ~1k · 📅 Active
+- [AWS Bedrock AgentCore](https://github.com/awslabs/agentcore-samples) — Managed AWS infrastructure for Bedrock-based agents with compliance, scaling, and monitoring built in. `Python` · ⭐ ~1k · 📅 Active
 - [Modal](https://github.com/modal-labs/modal-client) — Serverless GPU compute purpose-built for AI workloads with fast cold starts and Python-native deployment. `Python` · ⭐ ~1k · 📅 Active
 - [Northflank](https://northflank.com/) — Full-stack platform with GPU orchestration, Git-based CI/CD, and bring-your-own-cloud support. `Hosted` · 📅 Active
 - [Railway](https://railway.com/) — One-click deploy from GitHub with persistent volumes and databases for stateful agent deployments. `Hosted` · 📅 Active
@@ -233,8 +233,8 @@ Platforms and tools for deploying, scaling, and hosting AI agents in production.
 - [AgentBench](https://github.com/THUDM/AgentBench) — Comprehensive benchmark for evaluating LLMs as agents across 8 distinct environments. `Python` · ⭐ ~3k · 📅 Active
 - [GAIA Benchmark](https://huggingface.co/papers/2311.12983) — Benchmark for General AI Assistants measuring real-world reasoning and tool use. `Paper` · 📅 Active
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) — Framework for evaluating large language models with composable tasks and scoring. `Python` · ⭐ ~3k · 📅 Active
-- [SWE-bench](https://github.com/princeton-nlp/SWE-bench) — Benchmark for evaluating LLMs on real-world software engineering tasks from GitHub issues. `Python` · ⭐ ~3k · 📅 Active
-- [Terminal-Bench](https://github.com/terminal-bench/terminal-bench) — Benchmark for evaluating AI coding agents on real-world terminal-based development tasks. `Python` · ⭐ ~2k · 📅 Active
+- [SWE-bench](https://github.com/SWE-bench/SWE-bench) — Benchmark for evaluating LLMs on real-world software engineering tasks from GitHub issues. `Python` · ⭐ ~3k · 📅 Active
+- [Terminal-Bench](https://github.com/laude-institute/terminal-bench) — Benchmark for evaluating AI coding agents on real-world terminal-based development tasks. `Python` · ⭐ ~2k · 📅 Active
 
 ---
 
