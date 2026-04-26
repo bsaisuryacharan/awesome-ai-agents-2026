@@ -180,7 +180,7 @@ Agents that navigate the web, interact with UIs, and automate computer tasks.
 | LaVague     | Action model    | Selenium     | ~6k   |
 | AgentQL     | Semantic query  | Custom       | ~2k   |
 
-- [AgentQL](https://github.com/TinyFish-Inc/agentql) - AI-powered web scraping and automation with a semantic query language for page elements.
+- [AgentQL](https://github.com/tinyfish-io/agentql) - AI-powered web scraping and automation with a semantic query language for page elements.
 - [Browser Use](https://github.com/browser-use/browser-use) - Open-source framework to let LLMs navigate and interact with any website programmatically.
 - [LaVague](https://github.com/lavague-ai/LaVague) - Large Action Model framework to turn natural language instructions into browser automation.
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) - Automate browser-based workflows with computer vision and LLMs, no brittle selectors needed.
