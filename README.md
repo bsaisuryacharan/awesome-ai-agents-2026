@@ -207,7 +207,7 @@
 | LaVague     | Action model    | Selenium     | ~6k   |
 | AgentQL     | Semantic query  | Custom       | ~2k   |
 
-- [AgentQL](https://github.com/TinyFish-Inc/agentql) - AI-powered web scraping and automation with a semantic query language for page elements.
+- [AgentQL](https://github.com/tinyfish-io/agentql) - AI-powered web scraping and automation with a semantic query language for page elements.
 - [Browser Use](https://github.com/browser-use/browser-use) - 🔥 Open-source framework to let LLMs navigate and interact with any website programmatically.
 - [LaVague](https://github.com/lavague-ai/LaVague) - Large Action Model framework to turn natural language instructions into browser automation.
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) - Automate browser-based workflows with computer vision and LLMs, no brittle selectors needed.
@@ -226,6 +226,7 @@
 - [E2B](https://github.com/e2b-dev/e2b) - Cloud sandboxes for AI agents to run code securely in isolated environments.
 - [Engram](https://github.com/kwstx/engram_translator) - Universal bridge for multi-protocol AI agent systems with automated semantic mapping.
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - Web scraping API built for LLMs that converts websites to clean, structured markdown.
+- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with MCP bridge enabling AI agents to manage and observe workloads across edge and cloud clusters.
 - [Notte](https://github.com/nottelabs/notte) - Browser automation engine optimized for production AI pipelines.
 - [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol) - Networking stack for distributed agent systems with encrypted tunnels.
 
@@ -241,7 +242,6 @@
 - [AgentGPT](https://github.com/reworkd/AgentGPT) - Deploy AI agents in the browser with zero local setup required.
 - [Dify](https://github.com/langgenius/dify) - Open-source LLM app development platform with visual workflow builder and RAG orchestration.
 - [Langflow](https://github.com/langflow-ai/langflow) - Visual drag-and-drop builder for LLM workflows, RAG agents, and multi-step pipelines.
-- [Wordware](https://wordware.ai) - Web-hosted IDE where domain experts collaborate with AI engineers to build agent workflows.
 
 ## Voice and Multimodal Agents
 
