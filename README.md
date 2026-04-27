@@ -7,7 +7,8 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/ARUNAGIRINATHAN-K/awesome-ai-agents?style=social)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Tools Listed](https://img.shields.io/badge/tools_listed-110+-blue?style=flat-square)]()
+[![Last Commit](https://img.shields.io/github/last-commit/ARUNAGIRINATHAN-K/awesome-ai-agents)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/commits/main)
+[![Tools Listed](https://img.shields.io/badge/tools_listed-150+-blue?style=flat-square)]()
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square)](LICENSE)
 
 *The most comprehensive, structured guide to AI agent frameworks, tools, and resources.*  
@@ -16,9 +17,6 @@
 **[Explore the Stack](#contents) • [Read the Docs](#contributing) • [Submit a Tool](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/issues/new)**
 
 </div>
-
-> [!IMPORTANT]
-> **Help us reach 10k stars!** ⭐ If you find this repository useful, please consider giving it a star. It helps more developers discover the best tools for building the next generation of AI applications.
 
 ## Contents
 
@@ -41,9 +39,9 @@
 
 ## Orchestration Frameworks
 
-🧠 The core frameworks for building, orchestrating, and running AI agents.
+The core frameworks for building, orchestrating, and running AI agents.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Enterprise Compliance:** Semantic Kernel, LangGraph
 > - **TypeScript Native:** Mastra, VoltAgent, Vercel AI SDK
 > - **Just Getting Started:** CrewAI, PydanticAI, OpenAI Agents SDK
@@ -62,7 +60,7 @@
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Role-playing agent orchestration for collaborative agent teams.
 - [Google ADK](https://github.com/google/adk-python) - Modular agent dev kit integrating Gemini and Vertex AI natively.
 - [Haystack](https://github.com/deepset-ai/haystack) - Production-ready AI orchestration framework focused on building customizable LLM applications and RAG pipelines.
-- [LangGraph](https://github.com/langchain-ai/langgraph) - 🔥 Enterprise framework for stateful, graph-based agent workflows.
+- [LangGraph](https://github.com/langchain-ai/langgraph) - Enterprise framework for stateful, graph-based agent workflows.
 - [Letta](https://github.com/letta-ai/letta) - Formerly MemGPT. Stateful agents with built-in long-term memory and a REST API server.
 - [LlamaIndex](https://github.com/run-llama/llama_index) - The leading framework for connecting LLMs to your data, with powerful indexing and retrieval capabilities.
 - [Mastra](https://github.com/mastra-ai/mastra) - Opinionated TypeScript framework with RAG, observability, and MCP support built in.
@@ -79,9 +77,9 @@
 
 ## Coding Agents
 
-💻 AI-powered tools that write, edit, debug, and ship code from terminal pair programmers to full autonomous software engineers.
+AI-powered tools that write, edit, debug, and ship code from terminal pair programmers to full autonomous software engineers.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Terminal-First:** Aider, Claude Code, gemini-cli
 > - **IDE-Integrated:** Cline, Continue, Cursor
 > - **Full Autonomy:** OpenHands, SWE-agent, Devin
@@ -106,7 +104,7 @@
 - [Codex CLI](https://github.com/openai/codex) - OpenAI's lightweight, open-source terminal coding agent with fast execution and strong benchmark scores.
 - [Codex-CLI](https://github.com/microsoft/Codex-CLI) - CLI tool that turns natural language commands into Bash, ZShell, and PowerShell equivalents.
 - [Continue](https://github.com/continuedev/continue) - Source-controlled AI checks enforceable in CI, powered by the open-source Continue CLI.
-- [Cursor](https://cursor.com) - 🔥 AI-native IDE (VS Code fork) with deep codebase awareness, multi-file refactoring, and agentic workflows.
+- [Cursor](https://cursor.com) - AI-native IDE (VS Code fork) with deep codebase awareness, multi-file refactoring, and agentic workflows.
 - [Devin](https://devin.ai) - Fully autonomous AI software engineer that plans, codes, tests, and deploys in a cloud sandbox.
 - [gemini-cli](https://github.com/google-gemini/gemini-cli) - Open-source AI agent that brings the power of Gemini directly into your terminal.
 - [Goose](https://github.com/aaif-goose/goose) - Open-source extensible AI agent that goes beyond code suggestions, installs, executes, edits, and tests with any LLM.
@@ -118,9 +116,9 @@
 
 ## Memory and Context
 
-🗄️ Persistent memory, knowledge graphs, and context management for agents that need to remember, learn, and adapt.
+Persistent memory, knowledge graphs, and context management for agents that need to remember, learn, and adapt.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Plug-and-Play Memory:** Mem0
 > - **Knowledge Graphs:** graphiti, cognee
 > - **Video/Doc Retrieval:** Memvid
@@ -139,16 +137,16 @@
 - [Cortex Memory](https://github.com/prem-research/cortex) - Full-stack solution for agent memory covering extraction, vector search, and optimization.
 - [graphiti](https://github.com/getzep/graphiti) - Build real-time knowledge graphs for AI agents with automatic entity extraction and linking.
 - [Langmem](https://github.com/langchain-ai/langmem) - Helps agents learn and adapt from their interactions over time with persistent memory.
-- [Mem0](https://github.com/mem0ai/mem0) - 🔥 Memory layer for AI applications with long-term, short-term, and semantic memory extraction.
+- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications with long-term, short-term, and semantic memory extraction.
 - [Memvid](https://github.com/memvid/memvid) - Replace complex RAG pipelines with a serverless, single-file memory layer for instant retrieval.
 - [SimpleMem](https://github.com/aiming-lab/SimpleMem) - Efficient lifelong memory for LLM agents supporting both text and multimodal inputs.
 - [Supermemory](https://github.com/supermemoryai/supermemory) - Extremely fast and scalable memory engine and API designed for the AI era.
 
 ## Multi-Agent Systems
 
-🤝 Frameworks specifically designed for orchestrating multiple agents working together on shared objectives.
+Frameworks specifically designed for orchestrating multiple agents working together on shared objectives.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Quick Prototype:** Swarm
 > - **Software Team Simulation:** MetaGPT
 > - **Production Orchestration:** Swarms Framework
@@ -165,7 +163,7 @@
 
 🔌 The protocol layer that enables agents to discover tools, communicate with each other, and interoperate across ecosystems.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Agent-to-Tool:** MCP (Model Context Protocol)
 > - **Agent-to-Agent:** A2A Protocol
 > - **Hybrid:** Use MCP for tools, A2A for coordination
@@ -191,9 +189,9 @@
 
 ## Browser and Computer Use Agents
 
-🌐 Agents that navigate the web, interact with UIs, and automate computer tasks.
+Agents that navigate the web, interact with UIs, and automate computer tasks.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Playwright Reliability:** Stagehand
 > - **Vision Generalization:** Skyvern
 > - **Full Browser Control:** Browser Use
@@ -207,17 +205,17 @@
 | LaVague     | Action model    | Selenium     | ~6k   |
 | AgentQL     | Semantic query  | Custom       | ~2k   |
 
-- [AgentQL](https://github.com/tinyfish-io/agentql) - AI-powered web scraping and automation with a semantic query language for page elements.
-- [Browser Use](https://github.com/browser-use/browser-use) - 🔥 Open-source framework to let LLMs navigate and interact with any website programmatically.
+- [AgentQL](https://github.com/TinyFish-Inc/agentql) - AI-powered web scraping and automation with a semantic query language for page elements.
+- [Browser Use](https://github.com/browser-use/browser-use) - Open-source framework to let LLMs navigate and interact with any website programmatically.
 - [LaVague](https://github.com/lavague-ai/LaVague) - Large Action Model framework to turn natural language instructions into browser automation.
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) - Automate browser-based workflows with computer vision and LLMs, no brittle selectors needed.
 - [Stagehand](https://github.com/browserbase/stagehand) - AI web browsing framework built on Playwright with natural-language selectors and actions.
 
 ## Agent Tooling and Infrastructure
 
-🛠️ Sandboxes, web scrapers, browser automation, and networking layers that agents depend on.
+Sandboxes, web scrapers, browser automation, and networking layers that agents depend on.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Code Sandboxing:** E2B
 > - **LLM Web Scraping:** Firecrawl
 > - **Full Deployment:** AgentDock
@@ -226,15 +224,14 @@
 - [E2B](https://github.com/e2b-dev/e2b) - Cloud sandboxes for AI agents to run code securely in isolated environments.
 - [Engram](https://github.com/kwstx/engram_translator) - Universal bridge for multi-protocol AI agent systems with automated semantic mapping.
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - Web scraping API built for LLMs that converts websites to clean, structured markdown.
-- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with MCP bridge enabling AI agents to manage and observe workloads across edge and cloud clusters.
 - [Notte](https://github.com/nottelabs/notte) - Browser automation engine optimized for production AI pipelines.
 - [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol) - Networking stack for distributed agent systems with encrypted tunnels.
 
 ## Low and No-Code Builders
 
-🧩 Visual and browser-based tools for building agents without writing code.
+Visual and browser-based tools for building agents without writing code.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Full RAG Orchestration:** Dify
 > - **Drag-and-Drop Pipelines:** Langflow
 > - **Zero-Setup Browser:** AgentGPT
@@ -242,12 +239,13 @@
 - [AgentGPT](https://github.com/reworkd/AgentGPT) - Deploy AI agents in the browser with zero local setup required.
 - [Dify](https://github.com/langgenius/dify) - Open-source LLM app development platform with visual workflow builder and RAG orchestration.
 - [Langflow](https://github.com/langflow-ai/langflow) - Visual drag-and-drop builder for LLM workflows, RAG agents, and multi-step pipelines.
+- [Wordware](https://wordware.ai) - Web-hosted IDE where domain experts collaborate with AI engineers to build agent workflows.
 
 ## Voice and Multimodal Agents
 
-🗣️ Frameworks for building agents that can hear, speak, see, and interact across modalities.
+Frameworks for building agents that can hear, speak, see, and interact across modalities.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Real-Time Voice:** LiveKit Agents, Vapi
 > - **Streaming Pipelines:** Pipecat
 > - **Multimodal RAG:** Agentset
@@ -259,9 +257,9 @@
 
 ## Safety Guardrails and Observability
 
-🛡️ Tools for governing, monitoring, and securing autonomous AI agents in production.
+Tools for governing, monitoring, and securing autonomous AI agents in production.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Full Observability:** Langfuse, Arize Phoenix
 > - **Runtime Guardrails:** AgentGuard, AgentDoG
 > - **Python-Native Monitoring:** Logfire
@@ -279,9 +277,9 @@
 
 ## Agent Deployment and Hosting
 
-☁️ Platforms and tools for deploying, scaling, and hosting AI agents in production.
+Platforms and tools for deploying, scaling, and hosting AI agents in production.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Serverless GPU:** Modal
 > - **AWS-Native:** Bedrock AgentCore
 > - **Git-Push Deploy:** Railway, Northflank
@@ -295,9 +293,9 @@
 
 ## Agent Evaluation and Benchmarks
 
-📊 If you are building agents, you need to measure them. These tools help you evaluate, score, and compare agent performance.
+If you are building agents, you need to measure them. These tools help you evaluate, score, and compare agent performance.
 
-> 💡 **Quick Decision Guide:**
+> **Quick Decision Guide:**
 > - **Coding Agents:** SWE-bench
 > - **General Reasoning:** GAIA
 > - **Multi-Environment:** AgentBench
@@ -310,7 +308,7 @@
 
 ## Learning Resources
 
-📚 Courses, papers, and guides for understanding AI agents.
+Courses, papers, and guides for understanding AI agents.
 
 - [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) - Short course on building production agents with LangGraph by Andrew Ng's platform.
 - [AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2309.07864) - The benchmark paper for evaluating LLMs as agents across diverse environments.
@@ -321,7 +319,7 @@
 
 ## Modern AI System
 
-🏛️ A high-level architecture view of how modern AI agent systems are structured from foundation models to orchestration layers, memory, tools, and deployment.
+A high-level architecture view of how modern AI agent systems are structured from foundation models to orchestration layers, memory, tools, and deployment.
 
 <img width="1440" alt="Modern AI System Architecture" src="https://github.com/user-attachments/assets/83bd2dab-c4b8-4e86-9839-aaa483e11d6e" />
 
