@@ -196,7 +196,7 @@ Sandboxes, web scrapers, browser automation, and networking layers that agents d
 - [E2B](https://github.com/e2b-dev/e2b) - Cloud sandboxes for AI agents to run code securely in isolated environments.
 - [Engram](https://github.com/kwstx/engram_translator) - Universal bridge for multi-protocol AI agent systems with automated semantic mapping.
 - [Firecrawl](https://github.com/firecrawl/firecrawl) - Web scraping API built for LLMs that converts websites to clean, structured markdown.
-- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with MCP bridge enabling AI agents to manage workloads across edge and cloud clusters.
+- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with MCP bridge enabling AI agents to manage and observe workloads across edge and cloud clusters.
 - [Notte](https://github.com/nottelabs/notte) - Browser automation engine optimized for production AI pipelines.
 - [Pilot Protocol](https://github.com/TeoSlayer/pilotprotocol) - Networking stack for distributed agent systems with encrypted tunnels.
 
