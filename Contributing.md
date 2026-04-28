@@ -28,27 +28,27 @@ Every entry follows this exact format:
 - Description follows ` - ` (space, hyphen, space) after the closing parenthesis
 - Description is exactly **one sentence**, ending with a period
 - No promotional language ("the best", "revolutionary", "game-changing")
-- No trailing metadata (stars, language tags) - the maintainers add those during review
+- Mandatory metadata tags at the end of the sentence formatted exactly as `(🏷️ \`Language\` \`Framework\` \`Environment\`)` inside the period
 - Entries within each category are sorted **alphabetically** by tool name
 
 **Good example:**
 
 ```markdown
-- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications with long-term, short-term, and semantic memory extraction.
+- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications with long-term, short-term, and semantic memory extraction (🏷️ `Python` `Vector DB` `Cloud`).
 ```
 
 **Bad examples:**
 
 ```markdown
+# Wrong: tags placed after the period (fails awesome-lint)
+- [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications. (🏷️ `Python` `Vector` `Cloud`)
+
 # Wrong: uses heading instead of list item
 ### Mem0
 **[GitHub](https://github.com/mem0ai/mem0)** - Memory layer for AI
 
 # Wrong: uses em-dash instead of hyphen
-- [Mem0](https://github.com/mem0ai/mem0) — Memory layer for AI applications.
-
-# Wrong: promotional language
-- [Mem0](https://github.com/mem0ai/mem0) - The best and most revolutionary memory solution for AI.
+- [Mem0](https://github.com/mem0ai/mem0) — Memory layer for AI applications (🏷️ `Python`).
 
 # Wrong: multiple sentences
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications. It supports long-term memory extraction.
