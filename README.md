@@ -39,13 +39,6 @@
 
 ## Orchestration Frameworks
 
-The core frameworks for building, orchestrating, and running AI agents.
-
-> **Quick Decision Guide:**
-> - **Enterprise Compliance:** Semantic Kernel, LangGraph
-> - **TypeScript Native:** Mastra, VoltAgent, Vercel AI SDK
-> - **Just Getting Started:** CrewAI, PydanticAI, OpenAI Agents SDK
-
 | Framework       | Language       | Multi-Agent | Memory | MCP | Stars |
 | --------------- | -------------- | ----------- | ------ | --- | ----- |
 | LangGraph       | Python         | Yes         | Yes    | Yes | ~12k  |
@@ -76,13 +69,6 @@ The core frameworks for building, orchestrating, and running AI agents.
 - [VoltAgent](https://github.com/voltagent/voltagent) - TypeScript agent framework with built-in observability and a self-improving context engine.
 
 ## Coding Agents
-
-AI-powered tools that write, edit, debug, and ship code from terminal pair programmers to full autonomous software engineers.
-
-> **Quick Decision Guide:**
-> - **Terminal-First:** Aider, Claude Code, gemini-cli
-> - **IDE-Integrated:** Cline, Continue, Cursor
-> - **Full Autonomy:** OpenHands, SWE-agent, Devin
 
 | Agent       | Type       | Open Source | Interface | Best For                   |
 | ----------- | ---------- | ----------- | --------- | -------------------------- |
@@ -116,14 +102,6 @@ AI-powered tools that write, edit, debug, and ship code from terminal pair progr
 
 ## Memory and Context
 
-Persistent memory, knowledge graphs, and context management for agents that need to remember, learn, and adapt.
-
-> **Quick Decision Guide:**
-> - **Plug-and-Play Memory:** Mem0
-> - **Knowledge Graphs:** graphiti, cognee
-> - **Video/Doc Retrieval:** Memvid
-> - **Full-Stack Solution:** Cortex Memory
-
 | Solution    | Approach        | Graph Support | Multi-Modal | Stars |
 | ----------- | --------------- | ------------- | ----------- | ----- |
 | Mem0        | Hybrid          | No            | No          | ~30k  |
@@ -144,14 +122,6 @@ Persistent memory, knowledge graphs, and context management for agents that need
 
 ## Multi-Agent Systems
 
-Frameworks specifically designed for orchestrating multiple agents working together on shared objectives.
-
-> **Quick Decision Guide:**
-> - **Quick Prototype:** Swarm
-> - **Software Team Simulation:** MetaGPT
-> - **Production Orchestration:** Swarms Framework
-> - **Research Playground:** AgentVerse
-
 - [AgentVerse](https://github.com/OpenBMB/AgentVerse) - Framework for building custom multi-agent environments to accomplish collaborative tasks.
 - [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) - Evaluates and evolves agentic workflows over time using automatic optimization.
 - [Hivemoot](https://github.com/hivemoot/hivemoot) - Autonomous agent teams that collaboratively build software on GitHub.
@@ -160,13 +130,6 @@ Frameworks specifically designed for orchestrating multiple agents working toget
 - [Swarms Framework](https://github.com/kyegomez/swarms) - Multi-agent orchestration for production use cases with scalability and reliability at its core.
 
 ## Agent Communication Protocols
-
-🔌 The protocol layer that enables agents to discover tools, communicate with each other, and interoperate across ecosystems.
-
-> **Quick Decision Guide:**
-> - **Agent-to-Tool:** MCP (Model Context Protocol)
-> - **Agent-to-Agent:** A2A Protocol
-> - **Hybrid:** Use MCP for tools, A2A for coordination
 
 | Protocol | Purpose             | Creator   | Status   |
 | -------- | ------------------- | --------- | -------- |
@@ -189,14 +152,6 @@ Frameworks specifically designed for orchestrating multiple agents working toget
 
 ## Browser and Computer Use Agents
 
-Agents that navigate the web, interact with UIs, and automate computer tasks.
-
-> **Quick Decision Guide:**
-> - **Playwright Reliability:** Stagehand
-> - **Vision Generalization:** Skyvern
-> - **Full Browser Control:** Browser Use
-> - **Smart Web Scraping:** AgentQL
-
 | Agent       | Approach        | Base         | Stars |
 | ----------- | --------------- | ------------ | ----- |
 | Browser Use | LLM navigation  | Playwright   | ~30k  |
@@ -215,11 +170,6 @@ Agents that navigate the web, interact with UIs, and automate computer tasks.
 
 Sandboxes, web scrapers, browser automation, and networking layers that agents depend on.
 
-> **Quick Decision Guide:**
-> - **Code Sandboxing:** E2B
-> - **LLM Web Scraping:** Firecrawl
-> - **Full Deployment:** AgentDock
-
 - [AgentDock](https://github.com/agentdock/agentdock) - Framework for building and deploying production-ready AI agents with composable node architecture.
 - [E2B](https://github.com/e2b-dev/e2b) - Cloud sandboxes for AI agents to run code securely in isolated environments.
 - [Engram](https://github.com/kwstx/engram_translator) - Universal bridge for multi-protocol AI agent systems with automated semantic mapping.
@@ -229,13 +179,6 @@ Sandboxes, web scrapers, browser automation, and networking layers that agents d
 
 ## Low and No-Code Builders
 
-Visual and browser-based tools for building agents without writing code.
-
-> **Quick Decision Guide:**
-> - **Full RAG Orchestration:** Dify
-> - **Drag-and-Drop Pipelines:** Langflow
-> - **Zero-Setup Browser:** AgentGPT
-
 - [AgentGPT](https://github.com/reworkd/AgentGPT) - Deploy AI agents in the browser with zero local setup required.
 - [Dify](https://github.com/langgenius/dify) - Open-source LLM app development platform with visual workflow builder and RAG orchestration.
 - [Langflow](https://github.com/langflow-ai/langflow) - Visual drag-and-drop builder for LLM workflows, RAG agents, and multi-step pipelines.
@@ -243,26 +186,12 @@ Visual and browser-based tools for building agents without writing code.
 
 ## Voice and Multimodal Agents
 
-Frameworks for building agents that can hear, speak, see, and interact across modalities.
-
-> **Quick Decision Guide:**
-> - **Real-Time Voice:** LiveKit Agents, Vapi
-> - **Streaming Pipelines:** Pipecat
-> - **Multimodal RAG:** Agentset
-
 - [Agentset](https://github.com/agentset-ai/agentset) - Production RAG platform with reasoning, hybrid search, and full multimodal support.
 - [LiveKit Agents](https://github.com/livekit/agents) - Framework for building real-time, multimodal AI agents with voice, video, and data channels.
 - [Pipecat](https://github.com/pipecat-ai/pipecat) - Open-source framework for voice and multimodal conversational AI with streaming pipelines.
 - [Vapi](https://github.com/VapiAI/server-sdk-python) - Platform for building voice AI agents with low-latency speech-to-speech capabilities.
 
 ## Safety Guardrails and Observability
-
-Tools for governing, monitoring, and securing autonomous AI agents in production.
-
-> **Quick Decision Guide:**
-> - **Full Observability:** Langfuse, Arize Phoenix
-> - **Runtime Guardrails:** AgentGuard, AgentDoG
-> - **Python-Native Monitoring:** Logfire
 
 - [Agent OS](https://github.com/buildermethods/agent-os) - Kernel architecture for governing autonomous AI agents with policy enforcement.
 - [AgentDoG](https://github.com/AI45Lab/AgentDoG) - Diagnostic guardrails that analyze full agent execution trajectories to detect instruction hijacking and tool misuse.
@@ -277,14 +206,6 @@ Tools for governing, monitoring, and securing autonomous AI agents in production
 
 ## Agent Deployment and Hosting
 
-Platforms and tools for deploying, scaling, and hosting AI agents in production.
-
-> **Quick Decision Guide:**
-> - **Serverless GPU:** Modal
-> - **AWS-Native:** Bedrock AgentCore
-> - **Git-Push Deploy:** Railway, Northflank
-> - **Background Jobs:** Trigger.dev
-
 - [AWS Bedrock AgentCore](https://github.com/awslabs/agentcore-samples) - Managed AWS infrastructure for Bedrock-based agents with compliance, scaling, and monitoring built in.
 - [Modal](https://github.com/modal-labs/modal-client) - Serverless GPU compute purpose-built for AI workloads with fast cold starts and Python-native deployment.
 - [Northflank](https://northflank.com/) - Full-stack platform with GPU orchestration, Git-based CI/CD, and bring-your-own-cloud support.
@@ -293,14 +214,6 @@ Platforms and tools for deploying, scaling, and hosting AI agents in production.
 
 ## Agent Evaluation and Benchmarks
 
-If you are building agents, you need to measure them. These tools help you evaluate, score, and compare agent performance.
-
-> **Quick Decision Guide:**
-> - **Coding Agents:** SWE-bench
-> - **General Reasoning:** GAIA
-> - **Multi-Environment:** AgentBench
-> - **Custom Evals:** Inspect AI
-
 - [AgentBench](https://github.com/THUDM/AgentBench) - Comprehensive benchmark for evaluating LLMs as agents across 8 distinct environments.
 - [GAIA Benchmark](https://huggingface.co/papers/2311.12983) - Benchmark for General AI Assistants measuring real-world reasoning and tool use.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Framework for evaluating large language models with composable tasks and scoring.
@@ -308,20 +221,12 @@ If you are building agents, you need to measure them. These tools help you evalu
 
 ## Learning Resources
 
-Courses, papers, and guides for understanding AI agents.
-
 - [AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) - Short course on building production agents with LangGraph by Andrew Ng's platform.
 - [AgentBench: Evaluating LLMs as Agents](https://arxiv.org/abs/2309.07864) - The benchmark paper for evaluating LLMs as agents across diverse environments.
 - [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) - Anthropic's guide on agent design patterns, evaluation strategies, and production best practices.
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/) - Deep breakdown of LLM-powered agent components: planning, memory, and tool use.
 - [Prompt Engineering Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) - Community-maintained guide covering prompt engineering techniques and agent strategies.
 - [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629) - The foundational paper behind the ReAct prompting pattern used in most agent frameworks.
-
-## Modern AI System
-
-A high-level architecture view of how modern AI agent systems are structured from foundation models to orchestration layers, memory, tools, and deployment.
-
-<img width="1440" alt="Modern AI System Architecture" src="https://github.com/user-attachments/assets/83bd2dab-c4b8-4e86-9839-aaa483e11d6e" />
 
 ## Changelog
 
