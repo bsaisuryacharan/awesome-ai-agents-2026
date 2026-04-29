@@ -42,15 +42,6 @@
 
 ## Orchestration Frameworks
 
-| Framework       | Language       | Multi-Agent | Memory | MCP | Stars |
-| --------------- | -------------- | ----------- | ------ | --- | ----- |
-| LangGraph       | Python         | Yes         | Yes    | Yes | ~12k  |
-| CrewAI          | Python         | Yes         | No     | Yes | ~41k  |
-| AutoGen         | Python         | Yes         | Yes    | Yes | ~52k  |
-| PydanticAI      | Python         | No          | No     | Yes | ~8k   |
-| Mastra          | TypeScript     | Yes         | Yes    | Yes | ~8k   |
-| Semantic Kernel | Python/C#/Java | Yes         | Yes    | Yes | ~22k  |
-
 - [Agency Swarm](https://github.com/VRSEN/agency-swarm) - Orchestrates multi-agent systems built on the OpenAI Assistants API with role-based collaboration (🏷️ `Python` `OpenAI` `SDK`).
 - [Agno](https://github.com/agno-agi/agno) - Multi-agent framework with a runtime and control plane for managing agent deployments at scale (`Python` `FastAPI` `Cloud`) (🏷️ `Python` `FastAPI` `Cloud`).
 - [AutoGen](https://github.com/microsoft/autogen) - Event-driven multi-agent framework merged with Semantic Kernel for production workflows (🏷️ `Python` `Semantic Kernel` `SDK`).
@@ -76,19 +67,6 @@
 
 ## Coding Agents
 
-| Agent       | Type       | Open Source | Interface | Best For                   |
-| ----------- | ---------- | ----------- | --------- | -------------------------- |
-| Aider       | Terminal   | Yes         | CLI       | Git-aware pair programming |
-| Claude Code | Terminal   | Yes         | CLI       | Multi-file edits + tests   |
-| gemini-cli  | Terminal   | Yes         | CLI       | Google ecosystem           |
-| Codex CLI   | Terminal   | Yes         | CLI       | Fast autonomous tasks      |
-| Cline       | IDE        | Yes         | VS Code   | Permission-gated editing   |
-| Continue    | IDE        | Yes         | VS Code   | CI-enforceable checks      |
-| Cursor      | IDE        | No          | Desktop   | Deep codebase refactoring  |
-| Windsurf    | IDE        | No          | Desktop   | Team collaboration         |
-| Devin       | Autonomous | No          | Cloud     | End-to-end engineering     |
-| OpenHands   | Autonomous | Yes         | Web       | Full dev lifecycle         |
-
 - [Aider](https://github.com/Aider-AI/aider) - Terminal-first pair programmer that edits code in local repos, preserves Git history, and supports multi-file changes (🏷️ `Python` `CLI` `Local`).
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Mature autonomous agent platform with Forge framework and public benchmarks for evaluating agent capabilities (🏷️ `Python` `Forge` `CLI`).
 - [Claude Code](https://github.com/anthropics/claude-code) - Terminal-first agentic coding tool with multi-file edits, test running, and Git operations baked in (🏷️ `TypeScript` `CLI` `Local`).
@@ -109,14 +87,6 @@
 - [Windsurf](https://windsurf.com) - AI-native IDE with Cascade agent for multi-step autonomous tasks and team workflows (🏷️ `TypeScript` `Electron` `Desktop`).
 
 ## Memory and Context
-
-| Solution    | Approach        | Graph Support | Multi-Modal | Stars |
-| ----------- | --------------- | ------------- | ----------- | ----- |
-| Mem0        | Hybrid          | No            | No          | ~30k  |
-| graphiti    | Knowledge Graph | Yes           | No          | ~4k   |
-| cognee      | Graph + Vector  | Yes           | No          | ~3k   |
-| Supermemory | Vector          | No            | No          | ~7k   |
-| Memvid      | Video-based     | No            | Yes         | ~4k   |
 
 - [Acontext](https://github.com/memodb-io/Acontext) - Manages agent skills and long-term memory as a layered data structure for persistent context (🏷️ `Python` `SDK` `Local`).
 - [Chroma](https://github.com/chroma-core/chroma) - Lightweight, embeddable vector store for building memory-augmented AI agents with fast semantic retrieval (🏷️ `Python` `TypeScript` `SDK`).
@@ -169,15 +139,6 @@ The protocol layer that enables agents to discover tools, communicate with each 
 - [A2A Protocol](https://github.com/google/A2A) - Google's open protocol enabling AI agents to communicate, collaborate, and delegate tasks across frameworks (🏷️ `Protobuf` `Standard` `RPC`).
 
 ## Browser and Computer Use Agents
-
-
-| Agent       | Approach        | Base         | Stars |
-| ----------- | --------------- | ------------ | ----- |
-| Browser Use | LLM navigation  | Playwright   | ~30k  |
-| Stagehand   | NL selectors    | Playwright   | ~11k  |
-| Skyvern     | Computer vision | Custom       | ~11k  |
-| LaVague     | Action model    | Selenium     | ~6k   |
-| AgentQL     | Semantic query  | Custom       | ~2k   |
 
 - [AgentQL](https://github.com/TinyFish-Inc/agentql) - AI-powered web scraping and automation with a semantic query language for page elements (🏷️ `Python` `Playwright` `SDK`).
 - [Browser Use](https://github.com/browser-use/browser-use) - Open-source framework to let LLMs navigate and interact with any website programmatically (🏷️ `Python` `Playwright` `SDK`).
@@ -268,7 +229,7 @@ Frontend workspaces and chat interfaces with built-in agent plugins and tool-use
 - [Reflexion](https://github.com/noahshinn/reflexion) - Research framework letting agents learn from past mistakes via iterative verbal self-reflection loops (🏷️ `Paper` `Python` `Research`).
 - [Tree of Thoughts](https://github.com/princeton-nlp/tree-of-thought-llm) - Explores multiple parallel reasoning paths before committing to a final answer for complex problems (🏷️ `Paper` `Python` `Research`).
 
-> 📄 **Deep dives:** [patterns/react-pattern.md](patterns/react-pattern.md) • [patterns/plan-and-execute.md](patterns/plan-and-execute.md) • [patterns/reflection-loop.md](patterns/reflection-loop.md) • [patterns/multi-agent.md](patterns/multi-agent.md) • [workflows/multi-step-reasoning.md](workflows/multi-step-reasoning.md)
+> **Deep dives:** [patterns/react-pattern.md](patterns/react-pattern.md) • [patterns/plan-and-execute.md](patterns/plan-and-execute.md) • [patterns/reflection-loop.md](patterns/reflection-loop.md) • [patterns/multi-agent.md](patterns/multi-agent.md) • [workflows/multi-step-reasoning.md](workflows/multi-step-reasoning.md)
 
 ## Agent Communication
 
@@ -294,7 +255,7 @@ Frameworks for orchestrating data transformations and long-running agent-driven 
 - [Prefect](https://github.com/PrefectHQ/prefect) - Orchestrates agent workflows and data pipelines with retries, caching, and built-in observability (🏷️ `Python` `Pipeline` `Platform`).
 - [STORM](https://github.com/stanford-oval/storm) - Generates Wikipedia-style long-form articles by autonomously researching and synthesizing multiple sources (🏷️ `Python` `Stanford` `Research`).
 
-> 📄 **Deep dives:** [workflows/data-pipeline.md](workflows/data-pipeline.md) • [workflows/research-agent.md](workflows/research-agent.md)
+> **Deep dives:** [workflows/data-pipeline.md](workflows/data-pipeline.md) • [workflows/research-agent.md](workflows/research-agent.md)
 
 ## Secure Execution Environments
 
@@ -327,7 +288,7 @@ Infrastructure for running agent-generated code safely in isolated, sandboxed, o
 - [Podman](https://github.com/containers/podman) - Daemonless, rootless container engine ideal for running untrusted agent-generated code securely (🏷️ `Go` `Rootless` `CLI`).
 - [Sysbox](https://github.com/nestybox/sysbox) - Enhanced container runtime that enables Docker-in-Docker securely for nested agent execution environments (🏷️ `Go` `Docker` `Infrastructure`).
 
-> 📄 **Deep dives:** [environments/sandboxes.md](environments/sandboxes.md) • [environments/vms.md](environments/vms.md) • [environments/containers.md](environments/containers.md) • [environments/serverless.md](environments/serverless.md)
+> **Deep dives:** [environments/sandboxes.md](environments/sandboxes.md) • [environments/vms.md](environments/vms.md) • [environments/containers.md](environments/containers.md) • [environments/serverless.md](environments/serverless.md)
 
 
 ## Changelog
