@@ -4,7 +4,7 @@
 
 # Awesome AI Agents 2026
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 [![GitHub stars](https://img.shields.io/github/stars/ARUNAGIRINATHAN-K/awesome-ai-agents?style=social)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Last Commit](https://img.shields.io/github/last-commit/ARUNAGIRINATHAN-K/awesome-ai-agents)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/commits/main)
@@ -140,7 +140,7 @@ The protocol layer that enables agents to discover tools, communicate with each 
 
 ## Browser and Computer Use Agents
 
-- [AgentQL](https://github.com/TinyFish-Inc/agentql) - AI-powered web scraping and automation with a semantic query language for page elements (🏷️ `Python` `Playwright` `SDK`).
+- [AgentQL](https://github.com/tinyfish-io/agentql) - AI-powered web scraping and automation with a semantic query language for page elements (🏷️ `Python` `Playwright` `SDK`).
 - [Browser Use](https://github.com/browser-use/browser-use) - Open-source framework to let LLMs navigate and interact with any website programmatically (🏷️ `Python` `Playwright` `SDK`).
 - [LaVague](https://github.com/lavague-ai/LaVague) - Large Action Model framework to turn natural language instructions into browser automation (🏷️ `Python` `Selenium` `SDK`).
 - [Skyvern](https://github.com/Skyvern-AI/skyvern) - Automate browser-based workflows with computer vision and LLMs, no brittle selectors needed (🏷️ `Python` `Playwright` `Cloud`).
@@ -187,6 +187,7 @@ Sandboxes, web scrapers, browser automation, and networking layers that agents d
 - [Agent OS](https://github.com/buildermethods/agent-os) - Kernel architecture for governing autonomous AI agents with policy enforcement (🏷️ `Python` `Policy` `SDK`).
 - [AgentDoG](https://github.com/AI45Lab/AgentDoG) - Diagnostic guardrails that analyze full agent execution trajectories to detect instruction hijacking and tool misuse (🏷️ `Python` `Diagnostics` `SDK`).
 - [AgentGuard](https://github.com/cyberark/agent-guard) - Runtime observability and guardrails for AI agents with loop detection and anomaly alerts (🏷️ `Python` `CyberArk` `SDK`).
+- [agenttrace](https://github.com/luoyuctl/agenttrace) - Local-first TUI for AI coding agent session observability with tokens, cost, latency, tool failures, anomalies, reports, diffs, and CI health gates (🏷️ `Go` `Observability` `CLI`).
 - [APort Agent Guardrails](https://github.com/aporthq/aport-agent-guardrails) - Pre-action authorization plugin for agent frameworks with policy-based access control (🏷️ `Python` `Authorization` `SDK`).
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix) - Open-source observability platform built on OpenTelemetry for tracing, evaluating, and debugging AI agents (🏷️ `Python` `OpenTelemetry` `Platform`).
 - [DriftGuard](https://github.com/sujal-maheshwari2004/DriftGuard) - Semantic memory guardrails using causal graphs to prevent agents from repeating past failures (🏷️ `Python` `Memory` `SDK`).
