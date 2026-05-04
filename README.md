@@ -1,1 +1,1 @@
-$(cat /tmp/awesome-agents-readme.md)
+$(cat /tmp/readme-fixed.md)
