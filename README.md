@@ -378,9 +378,9 @@ AI agents that automate customer support, CRM workflows, sales outreach, and tic
 - [Ada](https://www.ada.cx) - Resolves 60% of customer support tickets automatically with complex multi-turn query understanding (🏷️ `Cloud` `Enterprise` `Platform`).
 - [Assembled](https://www.assembled.com) - Routes support tickets with workforce-aware scheduling and intelligent handoff to human agents (🏷️ `Cloud` `Enterprise` `Platform`).
 - [Dixa](https://www.dixa.com) - CRM-first conversational support platform with AI-powered routing and customer context enrichment (🏷️ `Cloud` `Enterprise` `Platform`).
-- [Freshdesk Freddy AI](https://www.freshworks.com/freshdesk/freddy-ai) - Auto-triages and routes support tickets with smart AI suggestions for budget-conscious SMB teams (🏷️ `Cloud` `Freshworks` `Platform`).
+- [Freshdesk Freddy AI](https://www.freshworks.com/freddy-ai/) - Auto-triages and routes support tickets with smart AI suggestions for budget-conscious SMB teams (🏷️ `Cloud` `Freshworks` `Platform`).
 - [Intercom Fin](https://www.intercom.com/fin) - Resolves 50% of SaaS support tickets by learning directly from your help center and knowledge base (🏷️ `Cloud` `Intercom` `Platform`).
-- [Zendesk AI](https://www.zendesk.com/platform/ai) - Automates 30% of enterprise support tickets with deep integration into the existing Zendesk ecosystem (🏷️ `Cloud` `Zendesk` `Platform`).
+- [Zendesk AI](https://www.zendesk.com/service/ai/) - Automates 30% of enterprise support tickets with deep integration into the existing Zendesk ecosystem (🏷️ `Cloud` `Zendesk` `Platform`).
 
 ### AI-Powered CRM Platforms
 
@@ -388,10 +388,10 @@ AI agents that automate customer support, CRM workflows, sales outreach, and tic
 - [Dynamics 365 Copilot](https://www.microsoft.com/en-us/dynamics-365/solutions/ai) - Drafts, summarizes, and translates across Office 365 with deep Microsoft ecosystem integration (🏷️ `Cloud` `Microsoft` `Platform`).
 - [HubSpot Breeze](https://www.hubspot.com/products/artificial-intelligence) - AI copilot with agent workflows and intelligence layer across marketing, sales, and service hubs (🏷️ `Cloud` `HubSpot` `Platform`).
 - [Monday CRM Lexi](https://monday.com/crm) - AI sales agent with automated lead sourcing, qualification, and pipeline management for SMBs (🏷️ `Cloud` `Monday` `Platform`).
-- [Pipedrive AI](https://www.pipedrive.com/en/features/ai-powered-sales-assistant) - AI-powered email drafting, deal prioritization, and smart reporting for small sales teams (🏷️ `Cloud` `Pipedrive` `Platform`).
+- [Pipedrive AI](https://www.pipedrive.com/en/features/ai-sales-assistant) - AI-powered email drafting, deal prioritization, and smart reporting for small sales teams (🏷️ `Cloud` `Pipedrive` `Platform`).
 - [Salesforce Einstein](https://www.salesforce.com/artificial-intelligence) - Enterprise AI with predictions, autonomous agents, and CRM automation across the Salesforce platform (🏷️ `Cloud` `Salesforce` `Platform`).
 - [ServiceNow AI Agents](https://www.servicenow.com/products/ai-agents.html) - Orchestrates AI agents across IT, HR, and CRM workflows for enterprise service management (🏷️ `Cloud` `ServiceNow` `Platform`).
-- [Zoho CRM Zia](https://www.zoho.com/crm/zoho-zia.html) - Predictive scoring, sentiment analysis, and voice commands for sales automation across Zoho products (🏷️ `Cloud` `Zoho` `Platform`).
+- [Zoho CRM Zia](https://www.zoho.com/zia/) - Predictive scoring, sentiment analysis, and voice commands for sales automation across Zoho products (🏷️ `Cloud` `Zoho` `Platform`).
 
 ### Sales and Outreach Agents
 
@@ -488,7 +488,7 @@ Open-weight LLMs optimized for agentic tasks including tool use, planning, multi
 | DeepSeek V3/R1  | DeepSeek     | 671B MoE     | 68x cheaper than GPT-4     |
 | Gemma 3         | Google       | 1B-27B       | Efficient edge agents      |
 
-- [Baichuan 3](https://github.com/baichuan-inc/Baichuan3) - Chinese-optimized open model family with strong domain performance for multilingual agent deployments (🏷️ `Python` `Open-Source` `Local`).
+- [Baichuan 3](https://huggingface.co/baichuan-inc) - Chinese-optimized open model family with strong domain performance for multilingual agent deployments (🏷️ `Python` `Open-Source` `Local`).
 - [Command R+](https://cohere.com/command) - Cohere's 104B parameter model optimized specifically for RAG and enterprise tool use in agent workflows (🏷️ `Cloud` `Cohere` `API`).
 - [DeepSeek V3](https://github.com/deepseek-ai/DeepSeek-V3) - 671B MoE model that delivers GPT-4 level reasoning at 68x lower cost for budget-conscious agent deployments (🏷️ `Python` `Open-Source` `Local`).
 - [Falcon 3](https://huggingface.co/tiiuae) - Efficient open model from TII UAE with strong multilingual support across 10B to 180B parameter variants (🏷️ `Python` `Open-Source` `Local`).
@@ -497,7 +497,7 @@ Open-weight LLMs optimized for agentic tasks including tool use, planning, multi
 - [InternLM 3](https://github.com/InternLM/InternLM) - Shanghai AI Lab model with strong long-context reasoning capabilities for complex agent tasks (🏷️ `Python` `Open-Source` `Local`).
 - [Llama 4](https://github.com/meta-llama/llama-models) - Meta's flagship open model family with Scout and Maverick variants and strong tool use capabilities (🏷️ `Python` `Meta` `Local`).
 - [Mistral Large 2](https://mistral.ai/models) - Leading European open model at 123B parameters with strong function calling for agent workflows (🏷️ `Python` `Mistral` `API`).
-- [Phi-4](https://github.com/microsoft/phi-4) - Microsoft's compact 14B parameter model delivering strong reasoning for on-device and edge agent deployments (🏷️ `Python` `Microsoft` `Local`).
+- [Phi-4](https://huggingface.co/microsoft/phi-4) - Microsoft's compact 14B parameter model delivering strong reasoning for on-device and edge agent deployments (🏷️ `Python` `Microsoft` `Local`).
 - [Qwen 3](https://github.com/QwenLM/Qwen3) - MCP-native multilingual model family from Alibaba with thinking mode across 0.6B to 235B sizes (🏷️ `Python` `Alibaba` `Local`).
 - [StarCoder 2](https://github.com/bigcode-project/starcoder2) - Code-focused open model trained on 600+ programming languages for specialized coding agents (🏷️ `Python` `BigCode` `Local`).
 - [Yi-Lightning](https://github.com/01-ai/Yi) - 01.AI's multilingual model with long context and fast inference across 6B to 200B parameter sizes (🏷️ `Python` `Open-Source` `Local`).
