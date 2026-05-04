@@ -8,7 +8,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/ARUNAGIRINATHAN-K/awesome-ai-agents?style=social)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Last Commit](https://img.shields.io/github/last-commit/ARUNAGIRINATHAN-K/awesome-ai-agents)](https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents/commits/main)
-[![Tools Listed](https://img.shields.io/badge/tools_listed-173%2B-blue?style=flat-square)]()
+[![Tools Listed](https://img.shields.io/badge/tools_listed-273%2B-blue?style=flat-square)]()
 [![License: CC0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square)](LICENSE)
 
 *The most comprehensive, structured guide to AI agent frameworks, tools, and resources.*  
@@ -37,6 +37,14 @@
 - [Agent Communication](#agent-communication)
 - [Data Pipeline and Workflow](#data-pipeline-and-workflow)
 - [Secure Execution Environments](#secure-execution-environments)
+- [Creative AI Agents](#creative-ai-agents)
+- [Customer Support and CRM Agents](#customer-support-and-crm-agents)
+- [Voice Agent Platforms](#voice-agent-platforms)
+- [Deep Research Agents](#deep-research-agents)
+- [Prompt-to-App Builders](#prompt-to-app-builders)
+- [Multi-Agent Consumer Platforms](#multi-agent-consumer-platforms)
+- [Open-Source Models for Agents](#open-source-models-for-agents)
+- [Market Stats and Benchmarks 2026](#market-stats-and-benchmarks-2026)
 - [Changelog](#changelog)
 - [Star History](#star-history)
 
@@ -293,6 +301,261 @@ Infrastructure for running agent-generated code safely in isolated, sandboxed, o
 
 > **Deep dives:** [environments/sandboxes.md](environments/sandboxes.md) • [environments/vms.md](environments/vms.md) • [environments/containers.md](environments/containers.md) • [environments/serverless.md](environments/serverless.md)
 
+
+## Creative AI Agents
+
+Tools for generating images, video, music, audio, and 3D assets using AI models.
+
+### Image Generation
+
+| Generator         | Strength           | Open Source | Pricing       |
+| ----------------- | ------------------ | ----------- | ------------- |
+| Midjourney v7     | Artistic quality   | No          | $10-120/mo    |
+| FLUX 2            | Photorealism       | Yes         | Free / API    |
+| Stable Diffusion  | Full control       | Yes         | Free (OSS)    |
+| Ideogram v3       | Text rendering     | No          | Free / $7+/mo |
+| Google Imagen 4   | Highest fidelity   | No          | API           |
+
+- [Adobe Firefly 3](https://firefly.adobe.com) - Generates commercially safe images from text prompts using a model trained exclusively on licensed data (🏷️ `Cloud` `Adobe CC` `Web`).
+- [DALL-E 3.5](https://openai.com/dall-e-3) - Generates detailed images from text prompts with 95% text accuracy integrated directly into ChatGPT (🏷️ `Cloud` `OpenAI` `API`).
+- [FLUX 2](https://blackforestlabs.ai) - Open-weight photorealism model producing 4K output at 6x faster generation speed than its predecessor (🏷️ `Python` `Open-Weight` `API`).
+- [Google Imagen 4](https://deepmind.google/technologies/imagen) - Produces state-of-the-art photorealistic images from text via Google DeepMind accessible through AI Studio (🏷️ `Cloud` `Google` `API`).
+- [Ideogram v3](https://ideogram.ai) - Renders readable text inside generated images with near-zero spelling errors for logos and marketing (🏷️ `Cloud` `Freemium` `Web`).
+- [Leonardo AI](https://leonardo.ai) - Multi-model image platform with Realtime Canvas and 3D gaming asset generation now owned by Canva (🏷️ `Cloud` `Canva` `Web`).
+- [Midjourney v7](https://midjourney.com) - Produces the highest artistic quality images with unmatched aesthetics via Discord and web interface (🏷️ `Cloud` `Discord` `Web`).
+- [Recraft](https://recraft.ai) - Design-first image generator with native vector art output and brand consistency tools for designers (🏷️ `Cloud` `Freemium` `Web`).
+- [Stable Diffusion 3.5](https://stability.ai) - Open-source foundation model with full ControlNet, LoRA, and ComfyUI ecosystem for custom pipelines (🏷️ `Python` `Open-Source` `Local`).
+
+### Video Generation
+
+| Generator        | Max Length | Resolution | Open Source |
+| ---------------- | ---------- | ---------- | ----------- |
+| Sora 2           | 25 sec     | 1080p      | No          |
+| Google Veo 3.1   | Variable   | 4K         | No          |
+| Runway Gen-4.5   | Variable   | 1080p+     | No          |
+| Kling 3.0        | 2 min      | 4K         | No          |
+| Wan 2.1          | Unlimited  | Variable   | Yes         |
+| HunyuanVideo     | Unlimited  | Variable   | Yes         |
+
+- [Google Veo 3.1](https://deepmind.google/technologies/veo) - Generates the highest cinematic quality video with native audio from text prompts via Google DeepMind (🏷️ `Cloud` `Google` `API`).
+- [HaiLuo AI](https://hailuoai.video) - Budget video generation platform offering 10 free videos per day with HD output quality (🏷️ `Cloud` `Freemium` `Web`).
+- [HunyuanVideo](https://github.com/Tencent/HunyuanVideo) - Open-source video generation model from Tencent that runs on consumer-grade GPUs (🏷️ `Python` `Open-Source` `Local`).
+- [Kling 3.0](https://klingai.com) - Generates 4K video up to 2 minutes long with native audio at the most competitive pricing available (🏷️ `Cloud` `Freemium` `Web`).
+- [LTX Video](https://github.com/Lightricks/LTX-Video) - Commercially safe open-source video generation model trained on fully licensed data (🏷️ `Python` `Open-Source` `Local`).
+- [Luma Dream Machine](https://lumalabs.ai/dream-machine) - Creates physics-accurate 4K HDR video scenes with 3D-style output for cinematic quality (🏷️ `Cloud` `Freemium` `Web`).
+- [Pika 2.5](https://pika.art) - Beginner-friendly video generation tool with fast turnaround and intuitive editing controls (🏷️ `Cloud` `Freemium` `Web`).
+- [Runway Gen-4.5](https://runwayml.com) - Professional video generation with Motion Brush and the highest benchmark scores for visual quality (🏷️ `Cloud` `Pro` `Web`).
+- [Seedance 2.0](https://seedance.ai) - Quad-modal input video generator with built-in lip-sync and 2K resolution output (🏷️ `Cloud` `Freemium` `Web`).
+- [Sora 2](https://sora.com) - Generates 25-second cinematic video clips with strong narrative coherence from text prompts by OpenAI (🏷️ `Cloud` `OpenAI` `Web`).
+- [Wan 2.1](https://github.com/Wan-Video/Wan2.1) - Open-source self-hosted video generation model with unlimited length and no per-video costs (🏷️ `Python` `Open-Source` `Local`).
+
+### Music and Audio Generation
+
+- [Meta AudioCraft](https://github.com/facebookresearch/audiocraft) - Open-source audio generation suite including MusicGen and AudioGen with fine-grained prompt control (🏷️ `Python` `Open-Source` `Local`).
+- [Stable Audio](https://stableaudio.com) - Generates instrumental audio tracks with a commercial license included by default for all outputs (🏷️ `Cloud` `Stability AI` `Web`).
+- [Suno](https://suno.ai) - Generates complete songs with vocals, instruments, and lyrics from a single text prompt (🏷️ `Cloud` `Freemium` `Web`).
+- [Udio](https://udio.com) - Produces high-fidelity music with fine-grained sectional control over generation and arrangement (🏷️ `Cloud` `Freemium` `Web`).
+
+### 3D and Design Generation
+
+- [Meshy](https://meshy.ai) - Generates 3D models from text or images for game assets and product visualization with multi-format export (🏷️ `Cloud` `Freemium` `Web`).
+- [Tripo AI](https://tripo3d.ai) - Produces fast 3D model generation from text or images with multi-format export for rapid prototyping (🏷️ `Cloud` `Freemium` `Web`).
+- [Vizcom](https://vizcom.ai) - Renders industrial design sketches into photorealistic 3D visuals in real-time for product designers (🏷️ `Cloud` `Pro` `Web`).
+
+## Customer Support and CRM Agents
+
+AI agents that automate customer support, CRM workflows, sales outreach, and ticket resolution at scale.
+
+### Support Automation
+
+| Platform         | Auto-Resolution | Best For           |
+| ---------------- | --------------- | ------------------ |
+| Intercom Fin     | 50%+ tickets    | SaaS teams         |
+| Ada              | 60%+ tickets    | Complex resolution |
+| Zendesk AI       | 30%+ tickets    | Enterprise         |
+| Freshdesk Freddy | 25%+ tickets    | SMBs               |
+
+- [Ada](https://www.ada.cx) - Resolves 60% of customer support tickets automatically with complex multi-turn query understanding (🏷️ `Cloud` `Enterprise` `Platform`).
+- [Assembled](https://www.assembled.com) - Routes support tickets with workforce-aware scheduling and intelligent handoff to human agents (🏷️ `Cloud` `Enterprise` `Platform`).
+- [Dixa](https://www.dixa.com) - CRM-first conversational support platform with AI-powered routing and customer context enrichment (🏷️ `Cloud` `Enterprise` `Platform`).
+- [Freshdesk Freddy AI](https://www.freshworks.com/freshdesk/freddy-ai) - Auto-triages and routes support tickets with smart AI suggestions for budget-conscious SMB teams (🏷️ `Cloud` `Freshworks` `Platform`).
+- [Intercom Fin](https://www.intercom.com/fin) - Resolves 50% of SaaS support tickets by learning directly from your help center and knowledge base (🏷️ `Cloud` `Intercom` `Platform`).
+- [Zendesk AI](https://www.zendesk.com/platform/ai) - Automates 30% of enterprise support tickets with deep integration into the existing Zendesk ecosystem (🏷️ `Cloud` `Zendesk` `Platform`).
+
+### AI-Powered CRM Platforms
+
+- [Creatio](https://www.creatio.com) - No-code CRM platform with pre-built AI agents for sales, marketing, and service automation (🏷️ `Cloud` `No-Code` `Platform`).
+- [Dynamics 365 Copilot](https://www.microsoft.com/en-us/dynamics-365/solutions/ai) - Drafts, summarizes, and translates across Office 365 with deep Microsoft ecosystem integration (🏷️ `Cloud` `Microsoft` `Platform`).
+- [HubSpot Breeze](https://www.hubspot.com/products/artificial-intelligence) - AI copilot with agent workflows and intelligence layer across marketing, sales, and service hubs (🏷️ `Cloud` `HubSpot` `Platform`).
+- [Monday CRM Lexi](https://monday.com/crm) - AI sales agent with automated lead sourcing, qualification, and pipeline management for SMBs (🏷️ `Cloud` `Monday` `Platform`).
+- [Pipedrive AI](https://www.pipedrive.com/en/features/ai-powered-sales-assistant) - AI-powered email drafting, deal prioritization, and smart reporting for small sales teams (🏷️ `Cloud` `Pipedrive` `Platform`).
+- [Salesforce Einstein](https://www.salesforce.com/artificial-intelligence) - Enterprise AI with predictions, autonomous agents, and CRM automation across the Salesforce platform (🏷️ `Cloud` `Salesforce` `Platform`).
+- [ServiceNow AI Agents](https://www.servicenow.com/products/ai-agents.html) - Orchestrates AI agents across IT, HR, and CRM workflows for enterprise service management (🏷️ `Cloud` `ServiceNow` `Platform`).
+- [Zoho CRM Zia](https://www.zoho.com/crm/zoho-zia.html) - Predictive scoring, sentiment analysis, and voice commands for sales automation across Zoho products (🏷️ `Cloud` `Zoho` `Platform`).
+
+### Sales and Outreach Agents
+
+- [Apollo.io](https://www.apollo.io) - AI prospecting platform with 275M+ contacts, lead scoring, and automated email sequencing (🏷️ `Cloud` `Freemium` `Platform`).
+- [Clay](https://www.clay.com) - Enriches leads from 70+ data providers and generates hyper-personalized outreach at scale (🏷️ `Cloud` `Pro` `Platform`).
+- [Instantly](https://instantly.ai) - Generates AI cold emails with smart sender rotation and built-in domain warmup for deliverability (🏷️ `Cloud` `Pro` `Platform`).
+- [Lavender](https://www.lavender.ai) - Coaches email writing in real-time with AI response scoring and recipient intelligence (🏷️ `Cloud` `Freemium` `Platform`).
+
+## Voice Agent Platforms
+
+Platforms for building, deploying, and scaling voice-based AI agents across calls, support, and live conversations.
+
+| Platform   | Latency | HIPAA | Best For                 |
+| ---------- | ------- | ----- | ------------------------ |
+| ElevenLabs | 75ms    | Yes   | Industry benchmark       |
+| Vapi       | Low     | No    | Developer-first          |
+| Bland AI   | Medium  | Yes   | Outbound call automation |
+| PolyAI     | Low     | Yes   | Enterprise scale         |
+
+- [AssemblyAI](https://www.assemblyai.com) - Speech-to-text API with speaker diarization, sentiment analysis, and summarization for voice agent pipelines (🏷️ `Cloud` `STT` `API`).
+- [Bland AI](https://www.bland.ai) - Automates outbound phone calls at scale with SOC2 and HIPAA compliance and CRM integration (🏷️ `Cloud` `Telephony` `API`).
+- [Deepgram](https://deepgram.com) - Sub-300ms speech-to-text and text-to-speech APIs purpose-built for real-time voice agent pipelines (🏷️ `Cloud` `STT/TTS` `API`).
+- [ElevenLabs](https://elevenlabs.io) - Industry-leading voice AI with 75ms latency, Conversational AI 2.0, RAG, and HIPAA compliance (🏷️ `Cloud` `Voice` `Platform`).
+- [HeyGen](https://www.heygen.com) - Creates AI talking avatars with voice cloning and lip-sync for video-based agent interactions (🏷️ `Cloud` `Avatar` `Web`).
+- [PolyAI](https://poly.ai) - Enterprise voice AI platform for natural multi-turn conversations with high-volume call handling (🏷️ `Cloud` `Enterprise` `Platform`).
+- [Retell AI](https://www.retellai.com) - Builds human-like voice agents with multi-language telephony support and low-latency responses (🏷️ `Cloud` `Telephony` `API`).
+- [Synthesia](https://www.synthesia.io) - Generates AI video avatars that speak in 120+ languages for training and communication agents (🏷️ `Cloud` `Avatar` `Web`).
+- [Synthflow](https://synthflow.ai) - No-code voice agent builder with pre-built templates for SMBs to deploy phone agents quickly (🏷️ `Cloud` `No-Code` `Platform`).
+- [Voiceflow](https://www.voiceflow.com) - No-code builder for voice and chat agents with visual conversation design and team collaboration (🏷️ `Cloud` `No-Code` `Platform`).
+
+## Deep Research Agents
+
+AI platforms that conduct autonomous multi-step research, synthesize findings from multiple sources, and generate structured reports with citations.
+
+| Agent            | Context Window | Approach                    |
+| ---------------- | -------------- | --------------------------- |
+| Claude Research  | 200K tokens    | Multi-step with citations   |
+| ChatGPT Research | 128K tokens    | Extended reasoning + browse |
+| Gemini Research  | 1M tokens      | Google Search + KG          |
+| Perplexity Pro   | Variable       | Real-time cited search      |
+
+- [ChatGPT Deep Research](https://openai.com/index/introducing-deep-research) - Conducts extended reasoning with web browsing to produce structured research reports with Canvas output (🏷️ `Cloud` `OpenAI` `Web`).
+- [Claude Deep Research](https://www.anthropic.com/research) - Performs multi-step investigation with verified source citations and 200K token context window (🏷️ `Cloud` `Anthropic` `Web`).
+- [DeerFlow](https://github.com/bytedance/deer-flow) - Multi-agent research system from ByteDance with planning and execution loops for autonomous investigation (🏷️ `Python` `Open-Source` `Research`).
+- [Gemini Deep Research](https://blog.google/products/gemini/google-gemini-deep-research) - Leverages Google Search and Knowledge Graph integration with 1M token context for breadth-first research (🏷️ `Cloud` `Google` `Web`).
+- [Perplexity Pro](https://www.perplexity.ai) - Provides real-time search answers with inline citations and follow-up threads for iterative research (🏷️ `Cloud` `Freemium` `Web`).
+
+## Prompt-to-App Builders
+
+Platforms that generate full-stack applications, components, or web apps from natural language prompts.
+
+| Builder       | Output           | Hosting        |
+| ------------- | ---------------- | -------------- |
+| Bolt.new      | Full-stack app   | Browser/deploy |
+| Lovable       | Full web app     | Auto-deploy    |
+| v0 by Vercel  | React components | Vercel         |
+| Replit Agent  | Full-stack       | Replit         |
+
+- [Bolt.new](https://bolt.new) - Generates full-stack web applications in the browser from natural language prompts with instant deploy (🏷️ `Cloud` `Freemium` `Web`).
+- [Dyad](https://github.com/dyad-sh/dyad) - Privacy-first open-source prompt-to-app builder that generates full-stack applications locally (🏷️ `TypeScript` `Open-Source` `Local`).
+- [Google Project IDX](https://idx.google.com) - AI-powered cloud IDE with free Claude Opus access for building full projects across all frameworks (🏷️ `Cloud` `Google` `Web`).
+- [Lovable](https://lovable.dev) - Iterates from chat to deployed web application with auto-deploy and real-time preview (🏷️ `Cloud` `Freemium` `Web`).
+- [PlayCode Agent](https://playcode.io) - Browser-only lightweight web app creation tool with AI-assisted code generation (🏷️ `Cloud` `Pro` `Web`).
+- [Replit Agent](https://replit.com/agent) - Builds and deploys full-stack projects from prompts with integrated hosting and collaboration (🏷️ `Cloud` `Freemium` `Web`).
+- [v0 by Vercel](https://v0.dev) - Generates React and Tailwind UI components from text descriptions with one-click Vercel deployment (🏷️ `Cloud` `Freemium` `Web`).
+
+## Multi-Agent Consumer Platforms
+
+All-in-one AI platforms providing access to agents, tools, and models through consumer-facing interfaces without writing code.
+
+| Platform   | Context | Flagship Features                          |
+| ---------- | ------- | ------------------------------------------ |
+| ChatGPT    | 128K    | GPTs, Deep Research, Canvas, Agent Mode    |
+| Claude     | 200K    | Computer Use, MCP, Cowork                  |
+| Gemini     | 1M      | Deep Think, Gems, NotebookLM               |
+| Grok       | 131K    | Real-time X data, Grok Build               |
+
+- [ChatGPT](https://openai.com/chatgpt) - General-purpose AI platform with GPTs, Deep Research, Canvas, and Agent Mode across the widest plugin ecosystem (🏷️ `Cloud` `OpenAI` `Web`).
+- [Claude](https://www.anthropic.com/claude) - Reasoning-focused AI with Computer Use, MCP integration, and Chrome browsing for coding and long document analysis (🏷️ `Cloud` `Anthropic` `Web`).
+- [Coze](https://www.coze.com) - No-code agent builder with a marketplace of 100+ custom agents and plugin integrations (🏷️ `Cloud` `ByteDance` `Web`).
+- [Gemini](https://deepmind.google/technologies/gemini) - Google's multimodal AI with 1M token context, Deep Think, Gems, and NotebookLM for workspace integration (🏷️ `Cloud` `Google` `Web`).
+- [Grok](https://x.ai/grok) - Real-time AI with live X data access, Grok Build for 8-agent parallel code generation, and image generation (🏷️ `Cloud` `xAI` `Web`).
+- [Meta AI](https://meta.ai) - Llama-powered AI integrated across WhatsApp, Messenger, and Instagram for conversational assistance (🏷️ `Cloud` `Meta` `Web`).
+- [Microsoft Copilot](https://copilot.microsoft.com) - AI assistant integrated into Office 365, Teams, and Power Platform for enterprise productivity workflows (🏷️ `Cloud` `Microsoft` `Web`).
+
+## Open-Source Models for Agents
+
+Open-weight LLMs optimized for agentic tasks including tool use, planning, multi-step reasoning, and code generation.
+
+| Model           | Organization | Parameters   | Agent Strength             |
+| --------------- | ------------ | ------------ | -------------------------- |
+| Llama 4         | Meta         | 8B-405B+     | Strong tool use            |
+| Qwen 3          | Alibaba      | 0.6B-235B    | MCP-native, multilingual   |
+| DeepSeek V3/R1  | DeepSeek     | 671B MoE     | 68x cheaper than GPT-4     |
+| Gemma 3         | Google       | 1B-27B       | Efficient edge agents      |
+
+- [Baichuan 3](https://github.com/baichuan-inc/Baichuan3) - Chinese-optimized open model family with strong domain performance for multilingual agent deployments (🏷️ `Python` `Open-Source` `Local`).
+- [Command R+](https://cohere.com/command) - Cohere's 104B parameter model optimized specifically for RAG and enterprise tool use in agent workflows (🏷️ `Cloud` `Cohere` `API`).
+- [DeepSeek V3](https://github.com/deepseek-ai/DeepSeek-V3) - 671B MoE model that delivers GPT-4 level reasoning at 68x lower cost for budget-conscious agent deployments (🏷️ `Python` `Open-Source` `Local`).
+- [Falcon 3](https://huggingface.co/tiiuae) - Efficient open model from TII UAE with strong multilingual support across 10B to 180B parameter variants (🏷️ `Python` `Open-Source` `Local`).
+- [Gemma 3](https://github.com/google-deepmind/gemma) - Efficient multimodal model from Google in 1B to 27B sizes ideal for edge and on-device agents (🏷️ `Python` `Google` `Local`).
+- [GLM-4](https://github.com/THUDM/GLM-4) - Zhipu AI's 744B MoE model achieving the lowest hallucination rate and 77.8% on SWE-bench (🏷️ `Python` `Open-Source` `Local`).
+- [InternLM 3](https://github.com/InternLM/InternLM) - Shanghai AI Lab model with strong long-context reasoning capabilities for complex agent tasks (🏷️ `Python` `Open-Source` `Local`).
+- [Llama 4](https://github.com/meta-llama/llama-models) - Meta's flagship open model family with Scout and Maverick variants and strong tool use capabilities (🏷️ `Python` `Meta` `Local`).
+- [Mistral Large 2](https://mistral.ai/models) - Leading European open model at 123B parameters with strong function calling for agent workflows (🏷️ `Python` `Mistral` `API`).
+- [Phi-4](https://github.com/microsoft/phi-4) - Microsoft's compact 14B parameter model delivering strong reasoning for on-device and edge agent deployments (🏷️ `Python` `Microsoft` `Local`).
+- [Qwen 3](https://github.com/QwenLM/Qwen3) - MCP-native multilingual model family from Alibaba with thinking mode across 0.6B to 235B sizes (🏷️ `Python` `Alibaba` `Local`).
+- [StarCoder 2](https://github.com/bigcode-project/starcoder2) - Code-focused open model trained on 600+ programming languages for specialized coding agents (🏷️ `Python` `BigCode` `Local`).
+- [Yi-Lightning](https://github.com/01-ai/Yi) - 01.AI's multilingual model with long context and fast inference across 6B to 200B parameter sizes (🏷️ `Python` `Open-Source` `Local`).
+
+## Market Stats and Benchmarks 2026
+
+Key data points on the AI agent market covering adoption, growth, valuations, and fastest-growing open-source projects.
+
+### Market Size
+
+| Year | Market Size | Growth     |
+| ---- | ----------- | ---------- |
+| 2024 | $5.1B       | Baseline   |
+| 2025 | $7.6B       | +49% YoY   |
+| 2026 | $10.91B     | +43% YoY   |
+| 2027 | $16.8B      | +54% YoY   |
+| 2030 | $52.63B     | 46.3% CAGR |
+
+### Adoption Rates
+
+| Metric                                  | Value |
+| --------------------------------------- | ----- |
+| Orgs with agents in production          | 57%   |
+| Devs using AI coding tools regularly    | 85%   |
+| Companies planning agent deployment     | 72%   |
+| Enterprises with dedicated agent budget | 41%   |
+
+### Top Use Cases
+
+| Use Case              | Share |
+| --------------------- | ----- |
+| Customer Service      | 26.5% |
+| Research and Analysis | 24.4% |
+| Workflow Automation   | 18.0% |
+| Code Generation       | 15.0% |
+| Data Processing       | 10.0% |
+
+### Fastest Growing Open-Source Projects
+
+| Project        | Stars (Jan 2026) | Stars (May 2026) | Growth |
+| -------------- | ---------------- | ---------------- | ------ |
+| Browser Use    | 10K              | 50K              | 5x     |
+| Playwright MCP | 1K               | 10K              | 10x    |
+| DeerFlow       | 5K               | 25K              | 5x     |
+
+### Notable Valuations
+
+| Company      | Valuation |
+| ------------ | --------- |
+| OpenAI       | $90B+     |
+| Cursor       | $29.3B    |
+| Anthropic    | $20B      |
+| ElevenLabs   | $11B      |
+| Mistral      | $6B       |
+| Hugging Face | $4.5B     |
+
+- [AI Agent Market Report 2026](https://www.marketsandmarkets.com) - Comprehensive market analysis projecting the AI agent market to reach $52.63B by 2030 at 46.3% CAGR (🏷️ `Report` `Market` `Research`).
+- [State of AI Agents Survey](https://www.mckinsey.com) - Enterprise survey showing 57% of organizations now have AI agents in production workflows (🏷️ `Report` `Survey` `Research`).
 
 ## Changelog
 
