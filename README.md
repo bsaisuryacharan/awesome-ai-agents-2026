@@ -130,7 +130,7 @@ The protocol layer that enables agents to discover tools, communicate with each 
 - [Arcade AI](https://github.com/ArcadeAI/arcade-mcp) - Tool-use platform with authentication, authorization, and logging for agent-tool interactions (🏷️ `Python` `Cloud` `API`).
 - [Composio](https://github.com/ComposioHQ/composio) - Integration platform with 250+ pre-built tool connectors for AI agents and LLMs (🏷️ `TypeScript` `Cloud` `API`).
 - [Docker MCP](https://github.com/docker/docker-mcp) - Docker's MCP gateway CLI plugin for running MCP servers in isolated containers (🏷️ `Go` `Docker` `CLI`).
-- [mcpx](https://github.com/CharanBharathula/mcpx) - Unified Model Context Protocol (MCP) server for executing code and managing files (🏷️ `Python` `MCP` `CLI`).
+- [mcp-stack](https://github.com/CharanBharathula/mcp-stack) - Unified Model Context Protocol (MCP) server for executing code and managing files (🏷️ `Python` `MCP` `CLI`).
 - [MCP Registry](https://github.com/modelcontextprotocol) - Official Model Context Protocol specification and server implementations for standardized tool access (🏷️ `JSON` `Standard` `Registry`).
 - [Toolhouse](https://toolhouse.ai) - Cloud-hosted tool infrastructure for agents with optimized execution and low-latency access (🏷️ `Python` `Cloud` `API`).
 - [Zapier MCP Server](https://zapier.com/mcp) - Connect agents to 7,000+ app integrations via MCP, powered by Zapier's automation platform (🏷️ `Cloud` `Zapier` `API`).
