@@ -101,6 +101,11 @@ Current categories:
 - **Multi-Agent Consumer Platforms** - all-in-one consumer AI platforms
 - **Open-Source Models for Agents** - open-weight LLMs optimized for agentic tasks
 - **Market Stats and Benchmarks 2026** - market data, valuations, and growth metrics
+- **Local and Self-Hosted AI** - local LLM runners and self-hosted agent platforms
+- **AI Governance and Compliance** - regulatory frameworks and governance tools
+- **Cybersecurity Agents** - pentesting, threat detection, and security analysis
+- **Healthcare and Therapy Agents** - mental health, cognitive training, and therapy AI
+- **Newsletters and Communities** - curated newsletters, podcasts, and forums
 
 ---
 
