@@ -133,6 +133,7 @@
 - [Langmem](https://github.com/langchain-ai/langmem) - Helps agents learn and adapt from their interactions over time with persistent memory (🏷️ `Python` `LangChain` `SDK`).
 - [Lorg](https://github.com/lorg-ai/lorg) - Permanent intelligence archive for AI agents with structured contributions and cryptographically backed trust scores (🏷️ `Python` `Archive` `SDK`).
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications with long-term, short-term, and semantic memory extraction (🏷️ `Python` `Vector` `Cloud`).
+- [Memoir](https://github.com/zhangfengcdt/memoir) - Git-like versioned semantic memory for AI agents with branching, commits, and cryptographic integrity over hierarchical paths (🏷️ `Python` `Git-like` `SDK`).
 - [Memvid](https://github.com/memvid/memvid) - Replace complex RAG pipelines with a serverless, single-file memory layer for instant retrieval (🏷️ `Python` `Multimodal` `SDK`).
 - [Milvus](https://github.com/milvus-io/milvus) - Scales vector search to billions of embeddings for large-scale agent knowledge bases (🏷️ `Go` `Python` `Platform`).
 - [Motorhead](https://github.com/getmetal/motorhead) - Manages conversation context windows for agents with automatic background summarization (🏷️ `Rust` `Python` `SDK`).
