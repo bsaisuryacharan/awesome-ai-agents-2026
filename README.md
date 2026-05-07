@@ -71,7 +71,6 @@
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Enterprise framework for stateful, graph-based agent workflows (🏷️ `Python` `LangChain` `SDK`).
 - [Letta](https://github.com/letta-ai/letta) - Formerly MemGPT. Stateful agents with built-in long-term memory and a REST API server (🏷️ `Python` `REST` `SDK`).
 - [LlamaIndex](https://github.com/run-llama/llama_index) - The leading framework for connecting LLMs to your data, with powerful indexing and retrieval capabilities (🏷️ `Python` `RAG` `SDK`).
-- [MagiC](https://github.com/magic-agents/magic) - Kubernetes for AI agents that manages any agent from any framework with routing, cost control, and circuit breaker (🏷️ `Go` `Kubernetes` `Platform`).
 - [Mastra](https://github.com/mastra-ai/mastra) - Opinionated TypeScript framework with RAG, observability, and MCP support built in (🏷️ `TypeScript` `Next.js` `SDK`).
 - [MicroAgent](https://github.com/BuilderIO/micro-agent) - Lightweight agent framework with self-editing prompts and code for minimal-overhead agent loops (🏷️ `TypeScript` `Lightweight` `SDK`).
 - [Miyabi](https://github.com/miyabi-dev/miyabi) - Issue-Driven Development framework with 7 coding and 14 business agents plus MCP 172+ tools using GitHub as OS (🏷️ `TypeScript` `GitHub` `SDK`).
@@ -93,7 +92,6 @@
 - [Aider](https://github.com/Aider-AI/aider) - Terminal-first pair programmer that edits code in local repos, preserves Git history, and supports multi-file changes (🏷️ `Python` `CLI` `Local`).
 - [Amazon Q Developer](https://aws.amazon.com/q/developer) - AWS-native AI coding assistant with Lambda, CloudWatch, infrastructure support, and security scanning (🏷️ `Python` `AWS` `IDE`).
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) - Mature autonomous agent platform with Forge framework and public benchmarks for evaluating agent capabilities (🏷️ `Python` `Forge` `CLI`).
-- [Caliber](https://github.com/caliber-agents/caliber) - CLI that fingerprints projects and generates AI agent configs like CLAUDE.md and Cursor rules with quality scoring (🏷️ `Python` `CLI` `Local`).
 - [Claude Code](https://github.com/anthropics/claude-code) - Terminal-first agentic coding tool with multi-file edits, test running, and Git operations baked in (🏷️ `TypeScript` `CLI` `Local`).
 - [Cline](https://github.com/cline/cline) - Autonomous coding agent in your IDE that creates/edits files, runs commands, and uses the browser with permission-gated steps (🏷️ `TypeScript` `VS Code` `IDE`).
 - [CodeRabbit](https://coderabbit.ai) - AI-powered PR reviewer with inline suggestions, security scanning, and automatic code quality checks (🏷️ `Cloud` `GitHub` `Web`).
@@ -135,6 +133,7 @@
 - [Langmem](https://github.com/langchain-ai/langmem) - Helps agents learn and adapt from their interactions over time with persistent memory (🏷️ `Python` `LangChain` `SDK`).
 - [Lorg](https://github.com/lorg-ai/lorg) - Permanent intelligence archive for AI agents with structured contributions and cryptographically backed trust scores (🏷️ `Python` `Archive` `SDK`).
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI applications with long-term, short-term, and semantic memory extraction (🏷️ `Python` `Vector` `Cloud`).
+- [Memoir](https://github.com/zhangfengcdt/memoir) - Git-like versioned semantic memory for AI agents with branching, commits, and cryptographic integrity over hierarchical paths (🏷️ `Python` `Git-like` `SDK`).
 - [Memvid](https://github.com/memvid/memvid) - Replace complex RAG pipelines with a serverless, single-file memory layer for instant retrieval (🏷️ `Python` `Multimodal` `SDK`).
 - [Milvus](https://github.com/milvus-io/milvus) - Scales vector search to billions of embeddings for large-scale agent knowledge bases (🏷️ `Go` `Python` `Platform`).
 - [Motorhead](https://github.com/getmetal/motorhead) - Manages conversation context windows for agents with automatic background summarization (🏷️ `Rust` `Python` `SDK`).
@@ -198,7 +197,6 @@ The protocol layer that enables agents to discover tools, communicate with each 
 - [Manus](https://manus.im) - Autonomous digital employee with Browser Operator extension acquired by Meta for web-based task execution (🏷️ `Cloud` `Meta` `Platform`).
 - [MultiOn](https://multion.ai) - Reliable web automation API with CAPTCHA handling for building production browser agents (🏷️ `Cloud` `API` `Platform`).
 - [onUI](https://github.com/nichochar/onui) - Open-source browser extension and MCP server for annotation-first UI pair programming with AI agents (🏷️ `TypeScript` `MCP` `Extension`).
-- [OpenAI Atlas](https://atlas.openai.com) - AI-native browser with Agent Mode for autonomous web task completion (🏷️ `Cloud` `OpenAI` `Browser`).
 - [OpenAI Operator](https://operator.openai.com) - ChatGPT autonomous web agent with human checkpoints using Computer Use Agent technology (🏷️ `Cloud` `OpenAI` `Platform`).
 - [Plasmate](https://github.com/nichochar/plasmate) - Headless browser compiling HTML to structured JSON with 17.5x compression and 13 MCP tools (🏷️ `Rust` `MCP` `SDK`).
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - MCP server wrapping Playwright for seamless browser automation integration with LLM agents (🏷️ `TypeScript` `MCP` `SDK`).
@@ -237,7 +235,6 @@ Sandboxes, web scrapers, browser automation, and networking layers that agents d
 - [Langflow](https://github.com/langflow-ai/langflow) - Visual drag-and-drop builder for LLM workflows, RAG agents, and multi-step pipelines (🏷️ `Python` `FastAPI` `Web`).
 - [Lindy](https://www.lindy.ai) - No-code AI agent platform with 3000+ app integrations for business workflow automation (🏷️ `Cloud` `No-Code` `Platform`).
 - [Make](https://www.make.com) - Visual workflow automation platform with AI capabilities and drag-and-drop scenario builder (🏷️ `Cloud` `No-Code` `Platform`).
-- [Mission Control](https://github.com/mission-control-ai/mission-control) - Cockpit for managing AI agent swarms with autonomous daemon, Field Ops, and approval workflows (🏷️ `Python` `Multi-Agent` `Platform`).
 - [n8n](https://github.com/n8n-io/n8n) - Open-source workflow automation with AI agent nodes combining visual and code-based orchestration (🏷️ `TypeScript` `Docker` `Platform`).
 - [Relevance AI](https://relevanceai.com) - No-code AI agent builder for sales, support, and research use cases with team collaboration (🏷️ `Cloud` `No-Code` `Platform`).
 - [Rivet](https://github.com/Ironclad/rivet) - Visual AI workflow builder with drag-and-drop interface for designing agent pipelines (🏷️ `TypeScript` `React` `Desktop`).
@@ -276,7 +273,6 @@ Sandboxes, web scrapers, browser automation, and networking layers that agents d
 - [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails) - NVIDIA programmable guardrails toolkit for controlling and securing LLM-powered agent conversations (🏷️ `Python` `NVIDIA` `SDK`).
 - [Orchard Kit](https://github.com/OrchardHarmonics/orchard-kit) - Modules for agent runtime security, self-audit trails, and collective cognition patterns (🏷️ `Python` `Security` `SDK`).
 - [OWASP Top 10 for Agentic Apps](https://owasp.org/www-project-top-10-for-large-language-model-applications) - Security framework covering goal hijacking, tool misuse, and cascading failure mitigations for agents (🏷️ `Policy` `Security` `Framework`).
-- [Prism Scanner](https://github.com/prism-scanner/prism) - Open-source security scanner for AI agent skills, plugins, and MCP servers with taint tracking (🏷️ `Python` `Security` `CLI`).
 - [Rebuff](https://github.com/protectai/rebuff) - Self-hardening prompt injection detection system for securing agent inputs against adversarial attacks (🏷️ `Python` `Security` `SDK`).
 
 ## Agent Interfaces and UIs
@@ -311,7 +307,6 @@ Frontend workspaces and chat interfaces with built-in agent plugins and tool-use
 - [GAIA Benchmark](https://huggingface.co/papers/2311.12983) - Benchmark for General AI Assistants measuring real-world reasoning and tool use (🏷️ `JSON` `Benchmark` `Dataset`).
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Framework for evaluating large language models with composable tasks and scoring (🏷️ `Python` `Evaluation` `SDK`).
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench) - Benchmark for evaluating LLMs on real-world software engineering tasks from GitHub issues (🏷️ `Python` `Docker` `Benchmark`).
-- [Terminal-Bench](https://github.com/terminal-bench/terminal-bench) - Benchmark for evaluating terminal-based coding agent performance across real-world tasks (🏷️ `Python` `Benchmark` `CLI`).
 - [WebArena](https://github.com/web-arena-x/webarena) - Benchmark for web agent evaluation using real websites with realistic task completion metrics (🏷️ `Python` `Benchmark` `Web`).
 
 ## Learning Resources
@@ -573,12 +568,10 @@ All-in-one AI platforms providing access to agents, tools, and models through co
 - [ChatGPT](https://openai.com/chatgpt) - General-purpose AI platform with GPTs, Deep Research, Canvas, and Agent Mode across the widest plugin ecosystem (🏷️ `Cloud` `OpenAI` `Web`).
 - [Claude](https://www.anthropic.com/claude) - Reasoning-focused AI with Computer Use, MCP integration, and Chrome browsing for coding and long document analysis (🏷️ `Cloud` `Anthropic` `Web`).
 - [Coze](https://www.coze.com) - No-code agent builder with a marketplace of 100+ custom agents and plugin integrations (🏷️ `Cloud` `ByteDance` `Web`).
-- [Cursor AI Automated Team](https://github.com/cursor-team/automated-team) - 4-role AI team with PM, DEV, OPS, and QA agents in Cursor IDE with file-based task routing (🏷️ `TypeScript` `Cursor` `IDE`).
 - [Gemini](https://deepmind.google/technologies/gemini) - Google's multimodal AI with 1M token context, Deep Think, Gems, and NotebookLM for workspace integration (🏷️ `Cloud` `Google` `Web`).
 - [Grok](https://x.ai/grok) - Real-time AI with live X data access, Grok Build for 8-agent parallel code generation, and image generation (🏷️ `Cloud` `xAI` `Web`).
 - [Meta AI](https://meta.ai) - Llama-powered AI integrated across WhatsApp, Messenger, and Instagram for conversational assistance (🏷️ `Cloud` `Meta` `Web`).
 - [Microsoft Copilot](https://copilot.microsoft.com) - AI assistant integrated into Office 365, Teams, and Power Platform for enterprise productivity workflows (🏷️ `Cloud` `Microsoft` `Web`).
-- [TeamHero](https://github.com/teamhero-ai/teamhero) - Open-source multi-agent orchestration with web dashboard, task lifecycle, knowledge base, and autopilot mode built on Claude Code (🏷️ `Python` `Claude` `Web`).
 
 ## Open-Source Models for Agents
 
@@ -603,7 +596,6 @@ Open-weight LLMs optimized for agentic tasks including tool use, planning, multi
 - [Mistral Large 2](https://mistral.ai/models) - Leading European open model at 123B parameters with strong function calling for agent workflows (🏷️ `Python` `Mistral` `API`).
 - [Phi-4](https://huggingface.co/microsoft/phi-4) - Microsoft's compact 14B parameter model delivering strong reasoning for on-device and edge agent deployments (🏷️ `Python` `Microsoft` `Local`).
 - [Qwen 3](https://github.com/QwenLM/Qwen3) - MCP-native multilingual model family from Alibaba with thinking mode across 0.6B to 235B sizes (🏷️ `Python` `Alibaba` `Local`).
-- [Qwen 3.5-Omni](https://huggingface.co/Qwen/Qwen3-Omni) - Native multimodal model from Alibaba with text, image, and audio processing in a 397B MoE architecture (🏷️ `Python` `Alibaba` `Local`).
 - [Qwen 3.6-Plus](https://qwenlm.github.io/blog/qwen3) - Agentic-focused model with 1M context window, repo-level coding, and MCP-native tool use (🏷️ `Python` `Alibaba` `Local`).
 - [StarCoder 2](https://github.com/bigcode-project/starcoder2) - Code-focused open model trained on 600+ programming languages for specialized coding agents (🏷️ `Python` `BigCode` `Local`).
 - [Yi-Lightning](https://github.com/01-ai/Yi) - 01.AI's multilingual model with long context and fast inference across 6B to 200B parameter sizes (🏷️ `Python` `Open-Source` `Local`).
@@ -680,7 +672,6 @@ Tools for running LLMs locally and self-hosting AI agent platforms with full pri
 
 Frameworks and tools for AI risk management, regulatory compliance, and governance as EU AI Act obligations take effect August 2026.
 
-- [AuditOne](https://www.auditone.ai) - Automated risk assessments and audit-ready documentation for AI agent compliance workflows (🏷️ `Cloud` `Compliance` `Platform`).
 - [Bifrost](https://github.com/bifrost-sec/bifrost) - Real-time security enforcement engine for agent pipelines with policy-based access controls (🏷️ `Python` `Security` `SDK`).
 - [Credo AI](https://www.credo.ai) - End-to-end AI governance platform with EU AI Act policy packs and model inventory management (🏷️ `Cloud` `Governance` `Platform`).
 - [EU AI Act](https://artificialintelligenceact.eu) - Official EU regulatory framework classifying AI systems by risk tier from unacceptable to minimal risk (🏷️ `Policy` `Regulation` `EU`).
@@ -688,6 +679,7 @@ Frameworks and tools for AI risk management, regulatory compliance, and governan
 - [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance) - Runtime policy enforcement and guardrails for Azure-hosted AI agents (🏷️ `Cloud` `Microsoft` `Platform`).
 - [Nobulex](https://github.com/arian-gogani/nobulex) - Cryptographic receipts for AI agent actions with two Ed25519 signatures per action, hash-chained for tamper-evident audit trails (🏷️ `TypeScript` `Security` `Cryptography`).
 - [NIST AI RMF](https://www.nist.gov/artificial-intelligence/risk-management-framework) - US framework for AI risk management covering Govern, Map, Measure, and Manage functions (🏷️ `Policy` `Framework` `US`).
+- [NIST AI RMF(web)](https://airc.nist.gov/Home) - US framework for AI risk management covering Govern, Map, Measure, and Manage functions (🏷️ `Policy` `Framework` `US`).
 - [OneTrust AI Governance](https://www.onetrust.com/solutions/ai-governance) - Risk classification, consent management, and compliance workflows for AI agent deployments (🏷️ `Cloud` `Compliance` `Platform`).
 
 ## Cybersecurity Agents
@@ -705,12 +697,10 @@ AI agents specialized in penetration testing, vulnerability discovery, threat de
 AI agents for mental health support, cognitive training, and therapy-adjacent applications with clinical validation.
 
 - [Akili Interactive](https://www.akiliinteractive.com) - FDA-cleared video game-based digital medicine for ADHD using neuroplasticity-focused cognitive training (🏷️ `Cloud` `FDA-Cleared` `Medical`).
-- [CittaVerse](https://github.com/cittaverse/cittaverse) - AI-assisted reminiscence therapy for elderly cognitive training with narrative quality scoring and life story book generation (🏷️ `Python` `Research` `Therapy`).
 - [Elomia](https://elomia.com) - Clinician-designed AI therapy chatbot with natural conversation flow and anonymous interaction by design (🏷️ `Cloud` `Mental Health` `Web`).
 - [Ginger](https://www.ginger.com) - On-demand mental healthcare platform combining AI coaching with live therapists using CBT and DBT approaches (🏷️ `Cloud` `Mental Health` `Mobile`).
 - [Headspace Health](https://www.headspace.com) - Meditation and mental health platform with CBT-based courses, sleep programs, and clinical partnerships (🏷️ `Cloud` `Wellness` `Mobile`).
 - [Replika](https://replika.com) - AI companion with Rogerian-style support, persistent memory, and mood tracking for social wellbeing (🏷️ `Cloud` `Companion` `Mobile`).
-- [Sanvello](https://www.sanvello.com) - CBT tools with mood tracking and coaching covered by insurance plans for accessible mental healthcare (🏷️ `Cloud` `Mental Health` `Mobile`).
 - [Talkspace AI](https://www.talkspace.com) - AI-assisted therapy matching platform with human therapist backup for personalized mental health care (🏷️ `Cloud` `Therapy` `Mobile`).
 - [Tess by X2AI](https://www.x2ai.com) - SMS-based therapy coach using CBT with clinical validation showing 28% depression reduction (🏷️ `Cloud` `Mental Health` `SMS`).
 - [Woebot](https://woebothealth.com) - CBT-based mental health chatbot that is FDA-cleared and Stanford-validated for therapeutic conversations (🏷️ `Cloud` `FDA-Cleared` `Mobile`).
@@ -728,7 +718,6 @@ Curated newsletters, podcasts, and communities for staying current with AI agent
 - [r/ClaudeAI](https://www.reddit.com/r/ClaudeAI) - Reddit community for Claude users sharing agent workflows, prompts, and integration patterns (🏷️ `Community` `Reddit` `Forum`).
 - [r/LangChain](https://www.reddit.com/r/LangChain) - Reddit community for agent developers using LangChain, LangGraph, and related frameworks (🏷️ `Community` `Reddit` `Forum`).
 - [r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA) - Reddit community for self-hosted LLM users sharing local deployment and agent setup guides (🏷️ `Community` `Reddit` `Forum`).
-- [State of Agent Engineering](https://www.stateofagentengineering.com) - Annual industry report surveying 1300+ practitioners on agent development trends (🏷️ `Report` `Annual` `Web`).
 - [The Rundown AI](https://www.therundown.ai) - Daily AI digest reaching 600K+ subscribers with concise coverage of agent news and launches (🏷️ `Newsletter` `Daily` `Web`).
 
 ## Changelog
