@@ -657,7 +657,7 @@ Frameworks and tools for AI risk management, regulatory compliance, and governan
 - [EU AI Act](https://artificialintelligenceact.eu) - Official EU regulatory framework classifying AI systems by risk tier from unacceptable to minimal risk (🏷️ `Policy` `Regulation` `EU`).
 - [IBM watsonx.governance](https://www.ibm.com/products/watsonx-governance) - Enterprise AI risk, compliance, and model monitoring platform for regulated industries (🏷️ `Cloud` `IBM` `Platform`).
 - [Nobulex](https://github.com/arian-gogani/nobulex) - Cryptographic receipts for AI agent actions with two Ed25519 signatures per action, hash-chained for tamper-evident audit trails (🏷️ `TypeScript` `Security` `Cryptography`).
-- [NIST AI RMF(web)](https://airc.nist.gov/Home) - US framework for AI risk management covering Govern, Map, Measure, and Manage functions (🏷️ `Policy` `Framework` `US`).
+- [NIST AI RMF](https://airc.nist.gov/Home) - US framework for AI risk management covering Govern, Map, Measure, and Manage functions (🏷️ `Policy` `Framework` `US`).
 - [OneTrust AI Governance](https://www.onetrust.com/solutions/ai-governance) - Risk classification, consent management, and compliance workflows for AI agent deployments (🏷️ `Cloud` `Compliance` `Platform`).
 
 ## Cybersecurity Agents
